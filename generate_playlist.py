@@ -29,7 +29,7 @@ def parse_m3u(lines):
     return entries
 
 def main():
-    output = ["#EXTM3U"]
+    output = []
     seen_urls = set()
 
     # --- Playlist A (keep all) ---
