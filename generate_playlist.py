@@ -8,9 +8,13 @@ OUTPUT_FILE = "output/updated_playlist.m3u"
 GB_KEYWORDS = ["GB", "UK", "UNITED KINGDOM"]
 
 def fetch(url):
-    r = requests.get(url, timeout=15)
-    r.raise_for_status()
-    return r.text.splitlines()
+    try:
+        r = requests.get(url, timeout=15)
+        r.raise_for_status()
+        return r.text.splitlines()
+    except Exception as e:
+        print(f"Error fetching {url}: {e}")
+        return []
 
 def is_gb(line):
     line = line.upper()
