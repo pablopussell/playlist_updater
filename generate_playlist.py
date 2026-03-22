@@ -5,7 +5,7 @@ PLAYLIST_B = "https://github.com/tutw/platinsport-m3u-updater/raw/refs/heads/mai
 
 OUTPUT_FILE = "output/updated_playlist.m3u"
 
-GB_KEYWORDS = ["GB", "UK", "UNITED KINGDOM"]
+GB = ["GB"]
 
 def fetch(url):
     try:
@@ -18,7 +18,7 @@ def fetch(url):
 
 def is_gb(line):
     line = line.upper()
-    return any(k in line for k in GB_KEYWORDS)
+    return any(k in line for k in GB)
 
 def parse_m3u(lines):
     entries = []
@@ -47,7 +47,7 @@ def main():
     entries_b = parse_m3u(lines_b)
 
     for meta, url in entries_b:
-        if is_gb(meta) and url not in seen_urls:
+        if is_gb(meta):
             output.append(meta)
             output.append(url)
             seen_urls.add(url)
