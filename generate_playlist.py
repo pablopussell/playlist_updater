@@ -23,7 +23,7 @@ def is_gb(line):
 def parse_m3u(lines):
     entries = []
     for i in range(len(lines)):
-        if lines[i].startswith("#EXTINF"):
+        if lines[i].startswith("#EXT"):
             if i + 1 < len(lines):
                 entries.append((lines[i], lines[i+1]))
     return entries
