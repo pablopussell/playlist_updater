@@ -30,11 +30,21 @@ jobs:
       - name: Generate playlist
         run: python generate_playlist.py
 
+      - name: Get Madrid time
+        id: madrid_time
+        run: |
+          # Install tzdata to handle timezone conversion
+          sudo apt-get update && sudo apt-get install -y tzdata
+          # Set Madrid timezone
+          export TZ="Europe/Madrid"
+          # Get formatted date
+          echo "MADRID_TIME=$(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+
       - name: Commit & push
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add output/updated_playlist.m3u
-          git commit -m "Auto update playlist - $(date +"%Y-%m-%d %H:%M:%S %Z")" || echo "No changes"
+          git commit -m "Auto update playlist - $MADRID_TIME" || echo "No changes"
           git pull --rebase origin main
           git push
