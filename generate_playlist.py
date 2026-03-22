@@ -1,4 +1,5 @@
 import requests
+import re
 
 PLAYLIST_A = "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_iptv.m3u"
 PLAYLIST_B = "https://github.com/tutw/platinsport-m3u-updater/raw/refs/heads/main/lista.m3u"
@@ -28,6 +29,11 @@ def parse_m3u(lines):
                 entries.append((lines[i], lines[i+1]))
     return entries
 
+def replace_group_title(line):
+    # If group-title="AGENDA PLATINSPORT" exists, replace it with group-title="ENGLISH CHANNELS"
+    if 'group-title=' in line:
+        return re.sub(r'group-title="[^"]*"', f'group-title="{"ENGLISH CHANNELS"}"', line)
+
 def main():
     output = []
     seen_urls = set()
@@ -48,7 +54,8 @@ def main():
 
     for meta, url in entries_b:
         if is_gb(meta):
-            output.append(meta)
+            updated_meta = replace_group_title(meta)
+            output.append(updated_meta)
             output.append(url)
             seen_urls.add(url)
 
