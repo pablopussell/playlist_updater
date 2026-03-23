@@ -11,7 +11,7 @@ GB = ["GB"]
 EXCLUDED_LANGS = {"FR", "PT", "BE", "NL", "DE", "TR", "RU", "PL"}
 
 LANG_PATTERN = re.compile(
-    r'(?<!\w)[\(\[\{"\'\s]*(FR|PT|BE|NL|DE|TR|RU)[\)\]\}"\'\s]*(?!\w)',
+    r'(?<!\w)[\(\[\{"\'\s]*(FR|PT|BE|NL|DE|TR|RU|PL)[\)\]\}"\'\s]*(?!\w)',
     re.IGNORECASE
 )
 
