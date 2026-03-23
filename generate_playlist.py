@@ -8,6 +8,13 @@ OUTPUT_FILE = "output/updated_playlist.m3u"
 
 GB = ["GB"]
 
+EXCLUDED_LANGS = {"FR", "PT", "BE", "NL", "DE", "TR", "RU"}
+
+LANG_PATTERN = re.compile(
+    r'(?<!\w)(FR|PT|BE|NL|DE|TR|RU)(?!\w)',
+    re.IGNORECASE
+)
+
 def fetch(url):
     try:
         r = requests.get(url, timeout=60)
@@ -34,6 +41,9 @@ def replace_group_title(line):
     if 'group-title=' in line:
         return re.sub(r'group-title="[^"]*"', f'group-title="{"ENGLISH CHANNELS"}"', line)
 
+def has_excluded_language(meta: str) -> bool:
+    return LANG_PATTERN.search(meta) is not None
+
 def main():
     output = []
     seen_urls = set()
@@ -43,6 +53,9 @@ def main():
     entries_a = parse_m3u(lines_a)
 
     for meta, url in entries_a:
+        if has_excluded_language(meta):
+            continue
+        
         if url not in seen_urls:
             output.append(meta)
             output.append(url)
