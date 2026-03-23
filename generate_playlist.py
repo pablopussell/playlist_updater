@@ -14,7 +14,7 @@ def fetch(url):
         r.raise_for_status()
         return r.text.splitlines()
     except Exception as e:
-        print(f"Error fetching {url}: {e}")
+        print(f"Error fetching {url} : {e}")
         return []
 
 def is_gb(line):
