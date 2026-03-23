@@ -10,7 +10,7 @@ GB = ["GB"]
 
 def fetch(url):
     try:
-        r = requests.get(url, timeout=15)
+        r = requests.get(url, timeout=60)
         r.raise_for_status()
         return r.text.splitlines()
     except Exception as e:
