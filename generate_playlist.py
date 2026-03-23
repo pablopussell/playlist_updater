@@ -8,7 +8,7 @@ OUTPUT_FILE = "output/updated_playlist.m3u"
 
 GB = ["GB"]
 
-EXCLUDED_LANGS = {"FR", "PT", "BE", "NL", "DE", "TR", "RU"}
+EXCLUDED_LANGS = {"FR", "PT", "BE", "NL", "DE", "TR", "RU", "PL"}
 
 LANG_PATTERN = re.compile(
     r'(?<!\w)(FR|PT|BE|NL|DE|TR|RU)(?!\w)',
