@@ -39,7 +39,7 @@ jobs:
           done
       
           if echo "$RESPONSE" | jq -e '.dateTime' > /dev/null 2>&1; then
-            MADRID_TIME=$(jq -r '.dateTime | gsub("T"; " ")' <<< "$RESPONSE")
+            MADRID_TIME=$(jq -r '.dateTime | split(".")[0] | gsub("T"; " ")' <<< "$RESPONSE")
           elif echo "$RESPONSE" | jq -e '.datetime' > /dev/null 2>&1; then
             MADRID_TIME=$(jq -r '.datetime | split(".")[0] | gsub("T"; " ")' <<< "$RESPONSE")
           else
