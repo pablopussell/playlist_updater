@@ -70,7 +70,6 @@ def main():
             updated_meta = replace_group_title(meta)
             output.append(updated_meta)
             output.append(url)
-            seen_urls.add(url)
 
     # Write file
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
