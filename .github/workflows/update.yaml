@@ -29,8 +29,8 @@ jobs:
 
       - name: Get Madrid time (API)
         run: |
-          RESPONSE=$(curl -s https://worldtimeapi.org/api/timezone/Europe/Madrid)
-          MADRID_TIME=$(jq -r '.datetime | split(".")[0] | gsub("T"; " ")' <<< "$RESPONSE")
+          RESPONSE=$(curl -s https://timeapi.io/api/Time/current/zone?timeZone=Europe/Madrid)
+          MADRID_TIME=$(jq -r '.dateTime | split(".")[0] | gsub("T"; " ")' <<< "$RESPONSE")
           echo "MADRID_TIME=$MADRID_TIME" >> $GITHUB_ENV
 
       - name: Commit & push
