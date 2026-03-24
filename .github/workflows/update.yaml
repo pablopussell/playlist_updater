@@ -27,10 +27,26 @@ jobs:
       - name: Generate playlist
         run: python generate_playlist.py
 
-      - name: Get Madrid time (API)
+      - name: Get Madrid time (multi-source)
         run: |
-          RESPONSE=$(curl -s https://timeapi.io/api/Time/current/zone?timeZone=Europe/Madrid)
-          MADRID_TIME=$(jq -r '.dateTime | split(".")[0] | gsub("T"; " ")' <<< "$RESPONSE")
+          URLS=(
+            "https://timeapi.io/api/Time/current/zone?timeZone=Europe/Madrid"
+            "https://worldtimeapi.org/api/timezone/Europe/Madrid"
+          )
+      
+          for URL in "${URLS[@]}"; do
+            RESPONSE=$(curl -s --fail --max-time 20 "$URL") && break
+          done
+      
+          if echo "$RESPONSE" | jq -e '.dateTime' > /dev/null 2>&1; then
+            MADRID_TIME=$(jq -r '.dateTime | gsub("T"; " ")' <<< "$RESPONSE")
+          elif echo "$RESPONSE" | jq -e '.datetime' > /dev/null 2>&1; then
+            MADRID_TIME=$(jq -r '.datetime | split(".")[0] | gsub("T"; " ")' <<< "$RESPONSE")
+          else
+            echo "All APIs failed, fallback to UTC"
+            MADRID_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          fi
+      
           echo "MADRID_TIME=$MADRID_TIME" >> $GITHUB_ENV
 
       - name: Commit & push
