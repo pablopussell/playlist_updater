@@ -6,8 +6,6 @@ PLAYLIST_B = "https://github.com/tutw/platinsport-m3u-updater/raw/refs/heads/mai
 
 OUTPUT_FILE = "output/updated_playlist.m3u"
 
-GB = ["GB"]
-
 EXCLUDED_LANGS = {"FR", "PT", "BE", "NL", "DE", "TR", "RU", "PL"}
 
 LANG_PATTERN = re.compile(
@@ -26,7 +24,7 @@ def fetch(url):
 
 def is_gb(line):
     line = line.upper()
-    return any(k in line for k in GB)
+    return any(k in line for k in ["GB"])
 
 def parse_m3u(lines):
     entries = []
