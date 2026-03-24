@@ -27,15 +27,11 @@ jobs:
       - name: Generate playlist
         run: python generate_playlist.py
 
-      - name: Get Madrid time
-        id: madrid_time
+      - name: Get Madrid time (API)
         run: |
-          # Install tzdata to handle timezone conversion
-          sudo apt-get update && sudo apt-get install -y tzdata
-          # Set Madrid timezone
-          export TZ="Europe/Madrid"
-          # Get formatted date
-          echo "MADRID_TIME=$(date '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+          RESPONSE=$(curl -s https://worldtimeapi.org/api/timezone/Europe/Madrid)
+          MADRID_TIME=$(echo "$RESPONSE" | jq -r '.datetime' | cut -d'.' -f1 | sed 's/T/ /')
+          echo "MADRID_TIME=$MADRID_TIME" >> $GITHUB_ENV
 
       - name: Commit & push
         run: |
