@@ -468,3 +468,9 @@ http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
 http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
 #EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Womens Super League | Leicester City WFC vs Brighton & Hove Albion | SKY SPORTS FOOTBALL | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
+#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",22:15 | Netherlands Eredivisie Women | Moto3 vs Race | SPORT TV HD | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=0b197107e5902a4a6a7caaa78a97e8e5f552633c
+#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",19:00 | Netherlands Eredivisie Women | Moto2 vs Race | SPORT TV HD | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=0b197107e5902a4a6a7caaa78a97e8e5f552633c
+#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Netherlands Eredivisie Women | MotoGP vs Race | SPORT TV HD | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=0b197107e5902a4a6a7caaa78a97e8e5f552633c
