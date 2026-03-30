@@ -394,29 +394,5 @@ http://127.0.0.1:6878/ace/getstream?id=93780e4164ed775a9a7cd67c44716de58463fa0a
 http://127.0.0.1:6878/ace/getstream?id=2fab80a8445e31cb98169c0907600e1545ea8557
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", SuperTennis HD 47ca --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=7a57543cb6061648dc44c5d4321bd100bc8a47ca
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | Unknown League | Real Zaragoza vs Racing Santander | PREMIER SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
-#EXTINF:-1 tvg-id="SKYSPORTSPREMIER.GB" tvg-name="SKY SPORTS PREMIER" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | England Womens Super League | West Ham United vs London City Lionesses | SKY SPORTS PREMIER | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | England Womens Super League | Chelsea FC vs Aston Villa | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | England Womens Super League | Chelsea FC vs Aston Villa | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | England Womens Super League | Chelsea FC vs Aston Villa | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | England Womens Super League | Chelsea FC vs Aston Villa | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Womens Super League | Leicester City WFC vs Brighton & Hove Albion | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Womens Super League | Leicester City WFC vs Brighton & Hove Albion | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Womens Super League | Leicester City WFC vs Brighton & Hove Albion | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Womens Super League | Leicester City WFC vs Brighton & Hove Albion | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
-#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",22:15 | Netherlands Eredivisie Women | Moto3 vs Race | SPORT TV HD | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=0b197107e5902a4a6a7caaa78a97e8e5f552633c
-#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",19:00 | Netherlands Eredivisie Women | Moto2 vs Race | SPORT TV HD | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=0b197107e5902a4a6a7caaa78a97e8e5f552633c
-#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Netherlands Eredivisie Women | MotoGP vs Race | SPORT TV HD | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=0b197107e5902a4a6a7caaa78a97e8e5f552633c
+#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",19:00 | Unknown League | Cyprus vs Moldova | SPORT TV HD | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=8d5892db116515354e1710757e19fd75ed0c02da
