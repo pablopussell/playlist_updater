@@ -406,3 +406,9 @@ http://127.0.0.1:6878/ace/getstream?id=07473038aa16ed164f5989234fafd303eecf67dc
 http://127.0.0.1:6878/ace/getstream?id=ffa09e597804001f634dd1829f031823411a2595
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Sky Sports LaLiga HD 8557 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=2fab80a8445e31cb98169c0907600e1545ea8557
+#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",18:00 | World Cup Qualifying | Serbia vs Saudi Arabia | SPORT TV HD | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=8d5892db116515354e1710757e19fd75ed0c02da
+#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",18:00 | World Cup Qualifying | Montenegro vs Slovenia | SPORT TV HD | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=97b4fd3cf8f4db1c5e2065c4d36415c7988f7750
+#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | World Cup Qualifying | Ireland Republic vs North Macedonia | SPORT TV HD | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=df03a6c5f668eab4e6df12f578f4313e36db17be
