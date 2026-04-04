@@ -418,49 +418,25 @@ http://127.0.0.1:6878/ace/getstream?id=2fab80a8445e31cb98169c0907600e1545ea8557
 http://127.0.0.1:6878/ace/getstream?id=7a57543cb6061648dc44c5d4321bd100bc8a47ca
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", TV5Monde Europe ** c5f4 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=132c96f09c26b6792fdf19751816788a1747c5f4
-#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Rayo Vallecano vs Elche | SPORT TV HD | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=f206e2fa384003c64e31b7021c6f2f80db48ef4c
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",13:30 | England Championship | Middlesbrough vs Millwall | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",13:30 | England Championship | Middlesbrough vs Millwall | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",13:30 | England Championship | Middlesbrough vs Millwall | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",13:30 | England Championship | Middlesbrough vs Millwall | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Championship | Oxford United vs Hull City | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Championship | Oxford United vs Hull City | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
-#EXTINF:-1 tvg-id="ENGLAND.GB" tvg-name="ENGLAND" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Championship | Norwich City vs Portsmouth | ENGLAND | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=30acea6a6865245170d4015f02d25f59a861283d
-#EXTINF:-1 tvg-id="ENGLAND.GB" tvg-name="ENGLAND" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Championship | Queens Park Rangers vs Watford | ENGLAND | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=8d5892db116515354e1710757e19fd75ed0c02da
-#EXTINF:-1 tvg-id="ENGLAND.GB" tvg-name="ENGLAND" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Championship | West Bromwich Albion vs Wrexham | ENGLAND | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=70fa534a15b84831f7c32122059039fb925533fc
-#EXTINF:-1 tvg-id="ENGLAND.GB" tvg-name="ENGLAND" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Championship | Charlton Athletic vs Bristol City | ENGLAND | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=169692c92f1132d4ce38e8cf433bb67c98fad31a
-#EXTINF:-1 tvg-id="ENGLAND.GB" tvg-name="ENGLAND" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Championship | Birmingham City vs Blackburn Rovers | ENGLAND | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=99e07a595b77b3de5fd0a6eb30bdab943e0e0b30
-#EXTINF:-1 tvg-id="ENGLAND.GB" tvg-name="ENGLAND" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Championship | Stoke City vs Sheffield Wednesday | ENGLAND | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=dd8a8cb14272de55cc0fa19c17f4efe72420affa
-#EXTINF:-1 tvg-id="ENGLAND.GB" tvg-name="ENGLAND" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England Championship | Sheffield United vs Swansea City | ENGLAND | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=97b4fd3cf8f4db1c5e2065c4d36415c7988f7750
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Championship | Coventry City vs Derby County | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Championship | Coventry City vs Derby County | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Championship | Coventry City vs Derby County | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Championship | Coventry City vs Derby County | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
-#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | EuroLeague Basketball | ASVEL LyonVilleurbanne vs Olympiacos Piraeus | SPORT TV HD | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=207e40b43b31554bb734570bbd10a640a2be792c
-#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",21:30 | EuroLeague Basketball | Virtus Bologna vs Valencia Basket | SPORT TV HD | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=d9c3cd93bb3d20fee21450ce5b03b0075f951ee8
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",02:00 | EuroLeague Basketball | Orlando Pride vs Angel City | TNT SPORT 1 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",13:45 | England FA Cup | Manchester City vs Liverpool | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",02:00 | EuroLeague Basketball | Orlando Pride vs Angel City | TNT SPORT 1 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",13:45 | England FA Cup | Manchester City vs Liverpool | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",00:30 | EuroLeague Basketball | San Lorenzo vs Estudiantes | PREMIER SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:15 | England FA Cup | Chelsea vs Port Vale | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:15 | England FA Cup | Chelsea vs Port Vale | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England FA Cup | Southampton vs Arsenal | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England FA Cup | Southampton vs Arsenal | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England FA Cup | Southampton vs Arsenal | TNT SPORT 3 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=5f966c123759de46dff29c379266b7a403452033
+#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England FA Cup | Southampton vs Arsenal | TNT SPORT 3 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=d57ebd44296b0c92c0661cc964e737a54b852cec
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | Germany Bundesliga | Stuttgart vs Borussia Dortmund | SKY SPORTS FOOTBALL | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | Germany Bundesliga | Stuttgart vs Borussia Dortmund | SKY SPORTS FOOTBALL | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",23:30 | USACanada Major League Soccer | Sao Paulo vs Cruzeiro | PREMIER SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
