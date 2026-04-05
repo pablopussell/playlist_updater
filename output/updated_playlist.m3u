@@ -438,22 +438,36 @@ http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
 http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
 #EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",17:30 | England FA Cup | West Ham United vs Leeds United | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",17:30 | England FA Cup | West Ham United vs Leeds United | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=4ce025489d5ff043a51b41a91f779f09a128b726
 #EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | Spain La Liga | Getafe vs Athletic Club | PREMIER SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
+#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | Spain La Liga | Getafe vs Athletic Club | PREMIER SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=35e5559a04f4c28a4d9038bdbc4f57c5f2ea7a59
 #EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",16:15 | Spain La Liga | Valencia vs Celta de Vigo | PREMIER SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
+#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",16:15 | Spain La Liga | Valencia vs Celta de Vigo | PREMIER SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=35e5559a04f4c28a4d9038bdbc4f57c5f2ea7a59
 #EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | Spain La Liga | Real Oviedo vs Sevilla | PREMIER SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
+#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | Spain La Liga | Real Oviedo vs Sevilla | PREMIER SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=35e5559a04f4c28a4d9038bdbc4f57c5f2ea7a59
 #EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Deportivo Alaves vs Osasuna | PREMIER SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
+#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Deportivo Alaves vs Osasuna | PREMIER SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=35e5559a04f4c28a4d9038bdbc4f57c5f2ea7a59
 #EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Italy Serie A | Internazionale vs Roma | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
 #EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Italy Serie A | Internazionale vs Roma | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Italy Serie A | Internazionale vs Roma | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=4ce025489d5ff043a51b41a91f779f09a128b726
 #EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | England FA Womens Cup | Arsenal vs Brighton & Hove Albion | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
 #EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | England FA Womens Cup | Arsenal vs Brighton & Hove Albion | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | England FA Womens Cup | Arsenal vs Brighton & Hove Albion | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=4ce025489d5ff043a51b41a91f779f09a128b726
 #EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",15:30 | England FA Womens Cup | Charlton Athletic vs Liverpool | TNT SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=01dcc1ea3387c2b73953efe3f52286a770737d7c
 #EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",15:30 | England FA Womens Cup | Charlton Athletic vs Liverpool | TNT SPORT 2 | [Reino Unido]
