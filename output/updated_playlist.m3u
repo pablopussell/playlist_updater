@@ -538,6 +538,10 @@ http://127.0.0.1:6878/ace/getstream?id=7a57543cb6061648dc44c5d4321bd100bc8a47ca
 http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
 #EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Champions League | Real Madrid vs Bayern Munchen | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Champions League | Real Madrid vs Bayern Munchen | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=e26b1d508c1273dd0aa6ac0bae8fc2ecef60d26b
+#EXTINF:-1 tvg-id="TNTSPORT7.GB" tvg-name="TNT SPORT 7" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Championship | Wrexham vs Southampton | TNT SPORT 7 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=027efe680a7b04e7e27d0979923708c31c4d52f1
 #EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League Two | Bromley vs Shrewsbury Town | SKY SPORTS MAIN EVENT | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
 #EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League Two | Bromley vs Shrewsbury Town | SKY SPORTS MAIN EVENT | [Reino Unido]
