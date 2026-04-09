@@ -318,8 +318,6 @@ http://127.0.0.1:6878/ace/getstream?id=31c19ffb3472c289c5bbbbc174449c8ed0d19e38
 http://127.0.0.1:6878/ace/getstream?id=caa631e8850e3eb5e7c039063dd8a339ccef1176
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga 2 HD" group-title="LA LIGA", M+ LALIGA 2 d3b8 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=ad42faa399df66dcd62a1cbc9d1c99ed4512d3b8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga 2 HD" group-title="LA LIGA", M+ LALIGA 2 42ec --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=51b363b1c4d42724e05240ad068ad219df8042ec
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga 2 HD" group-title="LA LIGA", M+ LALIGA 2 33fe --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=b8eb9c9868d487402569bba2d97a8af113d033fe
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BZF0xG9/liga3.png" tvg-id="M+ LaLiga 3 HD" group-title="LA LIGA", M+ LALIGA 3 FHD 028d --> NEW ERA
@@ -336,10 +334,10 @@ http://127.0.0.1:6878/ace/getstream?id=778f08cbae9596ed9e8b2ae0af33ee7a6fe24c6a
 http://127.0.0.1:6878/ace/getstream?id=afbf2a479c5a5072698139f0f556ef3e77a99bd0
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" tvg-id="M+ Liga de Campeones HD" group-title="LIGA DE CAMPEONES", LIGA DE CAMPEONES FHD 6c6f --> NEW ERA II
 http://127.0.0.1:6878/ace/getstream?id=afbf1ef8812e7b0a0977fa3a0a2d3a6d3cbd6c6f
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" tvg-id="M+ Liga de Campeones HD" group-title="LIGA DE CAMPEONES", LIGA DE CAMPEONES 406e --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=9db029dff6a9c637d1f670e78dbc1a479b9b406e
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" tvg-id="M+ Liga de Campeones HD" group-title="LIGA DE CAMPEONES", LIGA DE CAMPEONES 1bc9 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=97df5b7824948972d041d8ca2a4d29c90b641bc9
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" tvg-id="M+ Liga de Campeones HD" group-title="LIGA DE CAMPEONES", LIGA DE CAMPEONES 406e --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=9db029dff6a9c637d1f670e78dbc1a479b9b406e
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" tvg-id="M+ Liga de Campeones HD" group-title="LIGA DE CAMPEONES", LIGA DE CAMPEONES FHD 766b --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=d2b681aae903a3a278c25bae2d94d7609617766b
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" tvg-id="M+ Liga de Campeones HD" group-title="LIGA DE CAMPEONES", LIGA DE CAMPEONES f370 --> SPORT TV
@@ -478,8 +476,6 @@ http://127.0.0.1:6878/ace/getstream?id=6e212a916c83638268047dd2757c95b14f7d25a3
 http://127.0.0.1:6878/ace/getstream?id=6b15368775693c33c49fab02e7900c1976a5da90
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 e0ee --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=3774d8feab016ca766b35ea8488e7514ca30e0ee
-#EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 72b0 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=f0ee7a2b43c1df5ea9e4fac5bf876d5bef4372b0
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 7c56 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=890901fa742b19d8808cf49f19db2d3016437c56
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 HD 52b5 --> SPORT TV
@@ -512,6 +508,10 @@ http://127.0.0.1:6878/ace/getstream?id=7b361369a40046ad3011086f9d4ae2982fb4d5aa
 http://127.0.0.1:6878/ace/getstream?id=3230cdca852a10325222e3c546e499e31d547a90
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-6-por-movistar-plus-es.png" tvg-id="M+ Deportes 6" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 6 FHD 3c03 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=e4124b2143ed75e5ce902bed61be08cc5e5c3c03
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-6-por-movistar-plus-es.png" tvg-id="M+ Deportes 6" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 6 524a --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=e6cd9205e26b3b6680f607030c702e911272524a
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-6-por-movistar-plus-es.png" tvg-id="M+ Deportes 6" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 6 baa6 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=765f6a743bcfde948418aaf0de6e66de6a9fbaa6
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-6-por-movistar-plus-es.png" tvg-id="M+ Deportes 6" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 6 HD 0f7c --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=8f982a0d6e3196c12d0034142b65008321150f7c
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-8-por-movistar-plus-es.png" tvg-id="M+ Deportes 8" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 8 e99a --> ELCANO
@@ -626,21 +626,35 @@ http://127.0.0.1:6878/ace/getstream?id=2fab80a8445e31cb98169c0907600e1545ea8557
 http://127.0.0.1:6878/ace/getstream?id=e9975d38aaa4475ac0b1fa0faa541bbadd85a662
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", SuperTennis HD 47ca --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=7a57543cb6061648dc44c5d4321bd100bc8a47ca
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Champions League | Barcelona vs Atletico Madrid | TNT SPORT 2 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Bologna vs Aston Villa | TNT SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=01dcc1ea3387c2b73953efe3f52286a770737d7c
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Champions League | Barcelona vs Atletico Madrid | TNT SPORT 2 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Bologna vs Aston Villa | TNT SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Champions League | Barcelona vs Atletico Madrid | TNT SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=1a2459490caf534321fd8ac8cd1a364dfd784732
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Champions League | PSG vs Liverpool | TNT SPORT 1 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Bologna vs Aston Villa | TNT SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=0cccb73c2fbb1a2dfc905b51d002867c21faa671
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Porto vs Nottingham Forest | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Champions League | PSG vs Liverpool | TNT SPORT 1 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Porto vs Nottingham Forest | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Champions League | PSG vs Liverpool | TNT SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=51275d6f165ec87ccdfb9ea4ada77ee8ec93048d
-#EXTINF:-1 tvg-id="TNTSPORT4.GB" tvg-name="TNT SPORT 4" group-title="ENGLISH CHANNELS" tvg-country="GB",18:45 | Europe UEFA Europa League | Sporting Braga vs Real Betis | TNT SPORT 4 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Porto vs Nottingham Forest | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=120a6a13fadec9e1be53099b3e3dd6f31f2aa3d7
+#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Porto vs Nottingham Forest | SPORT TV HD | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=3bb6fd633c73c27485f140e4431227274681f39c
+#EXTINF:-1 tvg-id="TNTSPORT5.GB" tvg-name="TNT SPORT 5" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Freiburg vs Celta de Vigo | TNT SPORT 5 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=fc5089d8e1519872fdf951779ccbca913acc9bce
-#EXTINF:-1 tvg-id="TNTSPORT4.GB" tvg-name="TNT SPORT 4" group-title="ENGLISH CHANNELS" tvg-country="GB",18:45 | Europe UEFA Europa League | Sporting Braga vs Real Betis | TNT SPORT 4 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=c16c9cccffe31c38386de8565351e057a129452f
-#EXTINF:-1 tvg-id="SPORTTVHD.GB" tvg-name="SPORT TV HD" group-title="ENGLISH CHANNELS" tvg-country="GB",20:30 | EuroLeague Basketball | Anadolu Efes Istanbul vs BC Partizan Beograd | SPORT TV HD | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=e47d92315aaef4005c56dae3f78fb56b36678a20
+#EXTINF:-1 tvg-id="TNTSPORT5.GB" tvg-name="TNT SPORT 5" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Freiburg vs Celta de Vigo | TNT SPORT 5 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=289356d56cbef42c25a957b74ac95de352668123
+#EXTINF:-1 tvg-id="TNTSPORT4.GB" tvg-name="TNT SPORT 4" group-title="ENGLISH CHANNELS" tvg-country="GB",18:45 | Europe UEFA Conference League | Rayo Vallecano vs AEK Athens | TNT SPORT 4 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=fc5089d8e1519872fdf951779ccbca913acc9bce
+#EXTINF:-1 tvg-id="TNTSPORT4.GB" tvg-name="TNT SPORT 4" group-title="ENGLISH CHANNELS" tvg-country="GB",18:45 | Europe UEFA Conference League | Rayo Vallecano vs AEK Athens | TNT SPORT 4 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=289356d56cbef42c25a957b74ac95de352668123
+#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Conference League | Crystal Palace vs Fiorentina | TNT SPORT 3 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=5f966c123759de46dff29c379266b7a403452033
+#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Conference League | Crystal Palace vs Fiorentina | TNT SPORT 3 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=d57ebd44296b0c92c0661cc964e737a54b852cec
+#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Conference League | Crystal Palace vs Fiorentina | TNT SPORT 3 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=2e1640534089c15a19e860c1e2446b01bf2c1d63
+#EXTINF:-1 tvg-id="TNTSPORT6.GB" tvg-name="TNT SPORT 6" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Conference League | Mainz 05 vs Strasbourg | TNT SPORT 6 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=98ed391e1fe6a4bb97868ecf52efe1efb4420371
+#EXTINF:-1 tvg-id="TNTSPORT7.GB" tvg-name="TNT SPORT 7" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Conference League | Shakhtar Donetsk vs AZ | TNT SPORT 7 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=d10797c1aab50e77dd3de6dde11e44bc94df93f6
