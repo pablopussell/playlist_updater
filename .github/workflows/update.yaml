@@ -2,7 +2,7 @@ name: Update M3U
 
 on:
   schedule:
-    - cron: "0 6,9,13,18,20 * * *"
+    - cron: "0 6,12,16,19 * * *"
   workflow_dispatch:
 
 permissions:
