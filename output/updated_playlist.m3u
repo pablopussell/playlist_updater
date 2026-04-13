@@ -566,59 +566,13 @@ http://127.0.0.1:6878/ace/getstream?id=a9bddffdff085cdc18b34218d5dc1093b88e3c0a
 http://127.0.0.1:6878/ace/getstream?id=e9975d38aaa4475ac0b1fa0faa541bbadd85a662
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", SuperTennis HD 47ca --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=7a57543cb6061648dc44c5d4321bd100bc8a47ca
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | Unknown League | Falkirk vs Rangers | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | Unknown League | Falkirk vs Rangers | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
-#EXTINF:-1 tvg-id="SKYSPORTSPREMIER.GB" tvg-name="SKY SPORTS PREMIER" group-title="ENGLISH CHANNELS" tvg-country="GB",15:00 | England Premier League | Nottingham Forest vs Aston Villa | SKY SPORTS PREMIER | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSPREMIER.GB" tvg-name="SKY SPORTS PREMIER" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Premier League | Manchester United vs Leeds United | SKY SPORTS PREMIER | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",15:00 | England Premier League | Sunderland vs Tottenham Hotspur | SKY SPORTS MAIN EVENT | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Premier League | Manchester United vs Leeds United | SKY SPORTS MAIN EVENT | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",15:00 | England Premier League | Sunderland vs Tottenham Hotspur | SKY SPORTS MAIN EVENT | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Premier League | Manchester United vs Leeds United | SKY SPORTS MAIN EVENT | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
-#EXTINF:-1 tvg-id="SKYSPORTSPREMIER.GB" tvg-name="SKY SPORTS PREMIER" group-title="ENGLISH CHANNELS" tvg-country="GB",17:30 | England Premier League | Chelsea vs Manchester City | SKY SPORTS PREMIER | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",17:30 | England Premier League | Chelsea vs Manchester City | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",17:30 | England Premier League | Chelsea vs Manchester City | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | Spain La Liga | Osasuna vs Real Betis | PREMIER SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | Spain La Liga | Osasuna vs Real Betis | PREMIER SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=086e4c7ccc0b80e2960a553d04dac1024c7787b9
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",16:15 | Spain La Liga | Mallorca vs Rayo Vallecano | PREMIER SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",16:15 | Spain La Liga | Mallorca vs Rayo Vallecano | PREMIER SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=086e4c7ccc0b80e2960a553d04dac1024c7787b9
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | Spain La Liga | Celta de Vigo vs Real Oviedo | PREMIER SPORT 1 | [Reino Unido]
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Levante vs Getafe | PREMIER SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | Spain La Liga | Celta de Vigo vs Real Oviedo | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=13ddaf59c0f2d760fd3775acc254e13825206eac
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Athletic Club vs Villarreal | PREMIER SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Athletic Club vs Villarreal | PREMIER SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=086e4c7ccc0b80e2960a553d04dac1024c7787b9
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",15:00 | Italy Serie A | Parma vs Napoli | TNT SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=01dcc1ea3387c2b73953efe3f52286a770737d7c
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",15:00 | Italy Serie A | Parma vs Napoli | TNT SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Italy Serie A | Como vs Internazionale | TNT SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Italy Serie A | Como vs Internazionale | TNT SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | Russia Russian Premier League | Luton Town vs Stockport County | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | Russia Russian Premier League | Luton Town vs Stockport County | SKY SPORTS FOOTBALL | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | England Championship | Birmingham City vs Wrexham | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | England Championship | Birmingham City vs Wrexham | SKY SPORTS MAIN EVENT | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",01:00 | Canada Canadian Premier League | Racing Club vs River Plate | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",01:00 | Canada Canadian Premier League | Racing Club vs River Plate | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=13ddaf59c0f2d760fd3775acc254e13825206eac
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",23:30 | Canada Canadian Premier League | Corinthians vs Palmeiras | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",23:30 | Canada Canadian Premier League | Corinthians vs Palmeiras | PREMIER SPORT 1 | [Reino Unido]
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Levante vs Getafe | PREMIER SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=13ddaf59c0f2d760fd3775acc254e13825206eac
