@@ -2,6 +2,8 @@
 http://127.0.0.1:6878/ace/getstream?id=01dcc1ea3387c2b73953efe3f52286a770737d7c
 #EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Aston Villa vs Bologna | TNT SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
+#EXTINF:-1 tvg-id="TNTSPORT6.GB" tvg-name="TNT SPORT 6" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Real Betis vs Sporting Braga | TNT SPORT 6 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78
 #EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Nottingham Forest vs Porto | TNT SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
 #EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Nottingham Forest vs Porto | TNT SPORT 1 | [Reino Unido]
