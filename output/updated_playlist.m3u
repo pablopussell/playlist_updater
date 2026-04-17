@@ -1,18 +1,16 @@
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Aston Villa vs Bologna | TNT SPORT 2 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",20:00 | England FA Youth Cup U18 | Manchester United vs Crystal Palace | TNT SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=01dcc1ea3387c2b73953efe3f52286a770737d7c
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Aston Villa vs Bologna | TNT SPORT 2 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",20:00 | England FA Youth Cup U18 | Manchester United vs Crystal Palace | TNT SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
-#EXTINF:-1 tvg-id="TNTSPORT6.GB" tvg-name="TNT SPORT 6" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Real Betis vs Sporting Braga | TNT SPORT 6 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=1ab443f5b4beb6d586f19e8b25b9f9646cf2ab78
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Nottingham Forest vs Porto | TNT SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Europa League | Nottingham Forest vs Porto | TNT SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
-#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Conference League | Fiorentina vs Crystal Palace | TNT SPORT 3 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=5f966c123759de46dff29c379266b7a403452033
-#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Europe UEFA Conference League | Fiorentina vs Crystal Palace | TNT SPORT 3 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=d57ebd44296b0c92c0661cc964e737a54b852cec
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League Two | Bromley vs Cambridge United | SKY SPORTS FOOTBALL | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT4.GB" tvg-name="TNT SPORT 4" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | Europe UEFA Youth League | Benfica U19 vs Club Brugge U19 | TNT SPORT 4 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=fc5089d8e1519872fdf951779ccbca913acc9bce
+#EXTINF:-1 tvg-id="TNTSPORT4.GB" tvg-name="TNT SPORT 4" group-title="ENGLISH CHANNELS" tvg-country="GB",18:45 | Europe UEFA Youth League | Real Madrid U19 vs PSG U19 | TNT SPORT 4 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=fc5089d8e1519872fdf951779ccbca913acc9bce
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Championship | Blackburn Rovers vs Coventry City | SKY SPORTS MAIN EVENT | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Championship | Blackburn Rovers vs Coventry City | SKY SPORTS MAIN EVENT | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Championship | Blackburn Rovers vs Coventry City | SKY SPORTS FOOTBALL | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League Two | Bromley vs Cambridge United | SKY SPORTS FOOTBALL | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Championship | Blackburn Rovers vs Coventry City | SKY SPORTS FOOTBALL | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
