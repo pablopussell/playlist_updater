@@ -1,14 +1,26 @@
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Unknown League | Livingston vs Aberdeen | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Unknown League | Livingston vs Aberdeen | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=13ddaf59c0f2d760fd3775acc254e13825206eac
-#EXTINF:-1 tvg-id="SKYSPORTSPREMIER.GB" tvg-name="SKY SPORTS PREMIER" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Premier League | Leeds United vs Burnley | SKY SPORTS PREMIER | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSPREMIER.GB" tvg-name="SKY SPORTS PREMIER" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | England Premier League | Arsenal vs Fulham | SKY SPORTS PREMIER | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Premier League | Leeds United vs Burnley | SKY SPORTS MAIN EVENT | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | England Premier League | Arsenal vs Fulham | SKY SPORTS MAIN EVENT | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Premier League | Leeds United vs Burnley | SKY SPORTS MAIN EVENT | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",18:30 | England Premier League | Arsenal vs Fulham | SKY SPORTS MAIN EVENT | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Girona vs Mallorca | PREMIER SPORT 2 | [Reino Unido]
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:00 | Italy Serie A | Como vs Napoli | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:00 | Italy Serie A | Como vs Napoli | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",20:00 | Netherlands Eredivisie | Ajax vs PSV | PREMIER SPORT 2 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
-#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Girona vs Mallorca | PREMIER SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=086e4c7ccc0b80e2960a553d04dac1024c7787b9
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",13:30 | England Championship | Millwall vs Oxford United | SKY SPORTS FOOTBALL | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",13:30 | England Championship | Millwall vs Oxford United | SKY SPORTS FOOTBALL | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",13:30 | England Championship | Ipswich Town vs Queens Park Rangers | SKY SPORTS MAIN EVENT | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",13:30 | England Championship | Ipswich Town vs Queens Park Rangers | SKY SPORTS MAIN EVENT | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
+#EXTINF:-1 tvg-id="SKYSPORTSPREMIER.GB" tvg-name="SKY SPORTS PREMIER" group-title="ENGLISH CHANNELS" tvg-country="GB",13:00 | England Womens Super League | Manchester United vs Brighton & Hove Albion | SKY SPORTS PREMIER | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:15 | USACanada Major League Soccer | Central Cordoba SdE vs Boca Juniors | PREMIER SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
+#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",23:30 | USACanada Major League Soccer | Palmeiras vs Santos | PREMIER SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
