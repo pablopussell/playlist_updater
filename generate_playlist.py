@@ -47,7 +47,6 @@ def is_gb(line):
     return any(k in line for k in ["GB"])
 
 def parse_m3u(lines):
-    """Returns (header_lines, extgrp_lines, entries)"""
     header_lines = []
     extgrp_lines = []
     entries = []
@@ -58,9 +57,12 @@ def parse_m3u(lines):
             i += 1
             continue
         if line.startswith("#EXTINF"):
-            if i + 1 < len(lines):
-                entries.append((line, lines[i + 1].strip()))
-            i += 2
+            j = i + 1
+            while j < len(lines) and (lines[j].strip() == "" or lines[j].strip().startswith("#")):
+                j += 1
+            if j < len(lines):
+                entries.append((line, lines[j].strip()))
+            i = j + 1
         elif line.startswith("#EXTM3U"):
             header_lines.append(line)
             i += 1
@@ -68,7 +70,7 @@ def parse_m3u(lines):
             extgrp_lines.append(line)
             i += 1
         elif line.startswith("#"):
-            header_lines.append(line)  # #EXTVLCOPT etc.
+            header_lines.append(line)
             i += 1
         else:
             i += 1
@@ -108,7 +110,7 @@ def main():
     for h in headers_a:
         output.append(h)
 
-     # Merge #EXTGRP from A and C, deduplicating by group-title value only
+    # Merge #EXTGRP from A and C, deduplicating by group-title value only
     for grp in extgrp_a + extgrp_c:
         title = extract_group_title(grp)
         if title and title not in seen_extgrp:
@@ -136,7 +138,7 @@ def main():
     lines_b = fetch(PLAYLIST_B)
     _, _, entries_b = parse_m3u(lines_b)
     for meta, url in entries_b:
-       if is_allowed_country(meta) and not is_excluded(meta, check_country=True) and url not in seen_urls:
+        if is_allowed_country(meta) and not is_excluded(meta, check_country=True) and url not in seen_urls:
             updated_meta = replace_group_title(meta)
             output.append(updated_meta)
             output.append(url)
