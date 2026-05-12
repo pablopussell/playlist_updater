@@ -17,6 +17,18 @@ LANG_PATTERN = re.compile(
 
 GROUP_TITLE_PATTERN = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
 
+COUNTRY_PATTERN = re.compile(r'tvg-country="([^"]*)"', re.IGNORECASE)
+
+def get_country(meta):
+    m = COUNTRY_PATTERN.search(meta)
+    return m.group(1).upper() if m else None
+
+def is_allowed_country(meta):
+    country = get_country(meta)
+    if country is None:
+        return False
+    return country not in EXCLUDED_LANGS and country == "GB"
+
 def extract_group_title(line):
     m = GROUP_TITLE_PATTERN.search(line)
     return m.group(1).upper() if m else None
