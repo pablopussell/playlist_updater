@@ -80,16 +80,17 @@ def replace_group_title(line):
         return re.sub(r'group-title="[^"]*"', f'group-title="{"ENGLISH CHANNELS"}"', line)
     return line
 
-def is_excluded(meta):
-    # Check 1: tvg-country attribute (Playlist B style)
-    country = get_country(meta)
-    if country and country in EXCLUDED_LANGS:
-        return True
-    
-    # Check 2: language tag in channel name e.g. (PL), [DE], {FR} (Playlist A/C style)
+def is_excluded(meta, check_country=False):
+    # Check 1: tvg-country attribute (Playlist B only)
+    if check_country:
+        country = get_country(meta)
+        if country and country in EXCLUDED_LANGS:
+            return True
+
+    # Check 2: language tag in channel name e.g. (PL), [DE], {FR}
     if LANG_PATTERN.search(meta):
         return True
-    
+
     return False
 
 def main():
@@ -135,7 +136,7 @@ def main():
     lines_b = fetch(PLAYLIST_B)
     _, _, entries_b = parse_m3u(lines_b)
     for meta, url in entries_b:
-        if is_allowed_country(meta) and not is_excluded(meta) and url not in seen_urls:
+       if is_allowed_country(meta) and not is_excluded(meta, check_country=True) and url not in seen_urls:
             updated_meta = replace_group_title(meta)
             output.append(updated_meta)
             output.append(url)
