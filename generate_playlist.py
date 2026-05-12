@@ -138,7 +138,7 @@ def main():
     lines_b = fetch(PLAYLIST_B)
     _, _, entries_b = parse_m3u(lines_b)
     for meta, url in entries_b:
-        if is_allowed_country(meta) and not is_excluded(meta, check_country=True) and url not in seen_urls:
+        if is_allowed_country(meta) and not is_excluded(meta, check_country=True):
             updated_meta = replace_group_title(meta)
             output.append(updated_meta)
             output.append(url)
