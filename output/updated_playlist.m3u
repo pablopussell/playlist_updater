@@ -640,9 +640,9 @@ http://127.0.0.1:6878/ace/getstream?id=ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc
 #EXTINF:-1 tvg-id="M+ Vamos HD" tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" group-title="MOVISTAR DEPORTES",M+ Vamos 1080p **
 http://127.0.0.1:6878/ace/getstream?id=7e4f6eb38e0d5ef52b7f8b96eb80c1d8c87dad16
 #EXTINF:-1 tvg-id="M+ Vamos 3" tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" group-title="MOVISTAR DEPORTES",M+ VAMOS 3 1080p *
-http://127.0.0.1:6878/ace/getstream?id=b46a524780cf0ac5e533491fe79389d6198acf2c
-#EXTINF:-1 tvg-id="M+ Vamos 3" tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" group-title="MOVISTAR DEPORTES",M+ VAMOS 3 1080p *
 http://127.0.0.1:6878/ace/getstream?id=a9299052e9a16e5e2924e1fdd00b877c374f9e96
+#EXTINF:-1 tvg-id="M+ Vamos 3" tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" group-title="MOVISTAR DEPORTES",M+ VAMOS 3 1080p *
+http://127.0.0.1:6878/ace/getstream?id=b46a524780cf0ac5e533491fe79389d6198acf2c
 #EXTINF:-1 tvg-id="Esport 3" tvg-logo="https://img.3cat.cat/multimedia/jpg/1/5/1697802708951.jpg" group-title="DEPORTES",Esport3 720p *
 http://127.0.0.1:6878/ace/getstream?id=739792a3225e5eb3056f4faa7b1137c7f161f23c
 #EXTINF:-1 tvg-id="Esport 3" tvg-logo="https://img.3cat.cat/multimedia/jpg/1/5/1697802708951.jpg" group-title="DEPORTES",Esport3 720p **
@@ -657,23 +657,17 @@ http://127.0.0.1:6878/ace/getstream?id=bf3773e7f5e53c11347c70c18bd085322efbc90f
 http://127.0.0.1:6878/ace/getstream?id=cd724cf4db6c687dfcdc580ee481cb374ae6bf58
 #EXTINF:-1 tvg-logo="https://cdn.prod.website-files.com/5cf5a026c170934c311c121c/63ab4f5a7a18d4001ca360c9_UFC_FightPass_hor_neg.png" group-title="UFC",UFC Fight HD 1080p *
 http://127.0.0.1:6878/ace/getstream?id=c9e8dd81c193468342f1424d409a254fc24038a3
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",19:00 | Spain La Liga | Valencia vs Rayo Vallecano | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",19:00 | Spain La Liga | Valencia vs Rayo Vallecano | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=13ddaf59c0f2d760fd3775acc254e13825206eac
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:30 | Spain La Liga | Real Madrid vs Real Oviedo | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:30 | Spain La Liga | Real Madrid vs Real Oviedo | PREMIER SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=13ddaf59c0f2d760fd3775acc254e13825206eac
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League One Play-Off Semi-Final | Bradford City vs Bolton Wanderers | SKY SPORTS MAIN EVENT | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSPREMIER.GB" tvg-name="SKY SPORTS PREMIER" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Premier League | Aston Villa vs Liverpool | SKY SPORTS PREMIER | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Premier League | Aston Villa vs Liverpool | SKY SPORTS MAIN EVENT | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
-#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League One Play-Off Semi-Final | Bradford City vs Bolton Wanderers | SKY SPORTS MAIN EVENT | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England Premier League | Aston Villa vs Liverpool | SKY SPORTS MAIN EVENT | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League One Play-Off Semi-Final | Bradford City vs Bolton Wanderers | SKY SPORTS FOOTBALL | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League Two PlayOff SemiFinal | Notts County vs Chesterfield | SKY SPORTS FOOTBALL | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
-#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League One Play-Off Semi-Final | Bradford City vs Bolton Wanderers | SKY SPORTS FOOTBALL | [Reino Unido]
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | England League Two PlayOff SemiFinal | Notts County vs Chesterfield | SKY SPORTS FOOTBALL | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",20:00 | England FA Youth Cup | Manchester City U18 vs Manchester United U18 | TNT SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",20:00 | England FA Youth Cup | Manchester City U18 vs Manchester United U18 | TNT SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",02:00 | Portugal Segunda liga | Kansas City Current vs Houston Dash | TNT SPORT 3 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=5f966c123759de46dff29c379266b7a403452033
+#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",02:00 | Portugal Segunda liga | Kansas City Current vs Houston Dash | TNT SPORT 3 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=d57ebd44296b0c92c0661cc964e737a54b852cec
