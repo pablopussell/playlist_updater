@@ -33,6 +33,10 @@ http://127.0.0.1:6878/ace/getstream?id=599a2fda91aa55703e2c5a51562d9dbf5d3d31d9
 http://127.0.0.1:6878/ace/getstream?id=691739972eb3468cf16b25e84dafdeaa40dead6d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" tvg-id="DAZN 1 HD" group-title="DAZN", DAZN 1 FHD 3fa9 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=50a8a13c474848d1efbd5586efdb5b6cdd173fa9
+#EXTINF:-1 tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" tvg-id="DAZN 1 HD" group-title="DAZN", DAZN 1 7884 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=a116ce3ff95c41c60e987e2b1aa247007f707884
+#EXTINF:-1 tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" tvg-id="DAZN 1 HD" group-title="DAZN", DAZN 1 363d --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=dddff67edfa7061f643ec5ae0be110169850363d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" tvg-id="DAZN 1 HD" group-title="DAZN", DAZN 1 b398 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=78124d96a1a4601e7910f50e36a16e35efcfb398
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" tvg-id="DAZN 1 HD" group-title="DAZN", DAZN 1 33b0 --> NEW LOOP
@@ -45,6 +49,8 @@ http://127.0.0.1:6878/ace/getstream?id=1e7f5efc1913efaf7042a9b1a49d1f9adc5bc187
 http://127.0.0.1:6878/ace/getstream?id=8b081c8afbd9beafc8c5fbf0115eb36eadb07a35
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Kz0GXSX/dazn2.png" tvg-id="DAZN 2 HD" group-title="DAZN", DAZN 2 FHD a97d --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=fb2dd566824658eeab27aae19a01c09430f1a97d
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Kz0GXSX/dazn2.png" tvg-id="DAZN 2 HD" group-title="DAZN", DAZN 2 c61d --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=01ce89b571b6c89bc19ccaafc913d483ac65c61d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Kz0GXSX/dazn2.png" tvg-id="DAZN 2 HD" group-title="DAZN", DAZN 2 63a6 --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=c93a0d4914713db942fbb210bac467b0224c63a6
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Kz0GXSX/dazn2.png" tvg-id="DAZN 2 HD" group-title="DAZN", DAZN 2 f516 --> SPORT TV
@@ -59,6 +65,8 @@ http://127.0.0.1:6878/ace/getstream?id=98fba924421aa1e4bd28e74d74a2726d0459b594
 http://127.0.0.1:6878/ace/getstream?id=d1d9ec2361a6ac8edc0b2841866383768cc28df9
 #EXTINF:-1 tvg-logo="https://i.ibb.co/R4LBVWP/dazn4.png" tvg-id="DAZN 4 HD" group-title="DAZN", DAZN 4 FHD 0af5 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=c015d37d1ead8155b1e7b97e743a1fe9850f0af5
+#EXTINF:-1 tvg-logo="https://i.ibb.co/R4LBVWP/dazn4.png" tvg-id="DAZN 4 HD" group-title="DAZN", DAZN 4 b1dc --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=d669c6cee7173a1c8994075f7050a6526655b1dc
 #EXTINF:-1 tvg-logo="https://i.ibb.co/R4LBVWP/dazn4.png" tvg-id="DAZN 4 HD" group-title="DAZN", DAZN 4 07c4 --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=c21a2524a8de3e1e5b126f2677a3e993d9aa07c4
 #EXTINF:-1 tvg-logo="https://i.ibb.co/R4LBVWP/dazn4.png" tvg-id="DAZN 4 HD" group-title="DAZN", DAZN 4 a3b8 --> SPORT TV
@@ -97,8 +105,6 @@ http://127.0.0.1:6878/ace/getstream?id=547ab7146a86d6119c9332c011669544720124e3
 http://127.0.0.1:6878/ace/getstream?id=4a67d5f9f7aba0f9735813f0034380cd48424671
 #EXTINF:-1 tvg-logo="https://i.ibb.co/r2Yd7xD/euro1.png" tvg-id="Eurosport 1 HD" group-title="EUROSPORT", EUROSPORT 1 HD 9321 --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=5378c95e982e496a3dafbc4fda57ca37da669321
-#EXTINF:-1 tvg-logo="https://i.ibb.co/M6h4Qyd/euro2.png" tvg-id="Eurosport 2" group-title="EUROSPORT", EUROSPORT 2 16b2 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=7152d5f5fdb2184c88c2bb433d8b8f619cdc16b2
 #EXTINF:-1 tvg-logo="https://i.ibb.co/M6h4Qyd/euro2.png" tvg-id="Eurosport 2" group-title="EUROSPORT", EUROSPORT 2 HD b8e0 --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=6176281b9c46a5621a0e88524f8dc621f173b8e0
 #EXTINF:-1 tvg-logo="https://i.ibb.co/M6h4Qyd/euro2.png" tvg-id="Eurosport 2" group-title="EUROSPORT", EUROSPORT 2 HD 66d8 --> SPORT TV
@@ -271,10 +277,10 @@ http://127.0.0.1:6878/ace/getstream?id=d4ff041287a43e3114d411d671c4b4e92e21f33y
 http://127.0.0.1:6878/ace/getstream?id=b3bdd6ef7f795c4f321a3ce5cf4907338f462929
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA 936c --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=5ad75216a63a31fef23ddc3532edc66c2fc0936c
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA d259 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=3ce95bc9d6fc63676d828bb2cfc7a1f1854fd259
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA 29e8 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=d3b11d6c18ad43df5cd42c1dafb4dd12d8f829e8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA d259 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=3ce95bc9d6fc63676d828bb2cfc7a1f1854fd259
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" tvg-id="M+ LaLiga HD" group-title="LA LIGA", M+ LALIGA 9e38 --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=31c19ffb3472c289c5bbbbc174449c8ed0d19e38
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Tc97zSb/liga2.png" tvg-id="M+ LaLiga 2 HD" group-title="LA LIGA", M+ LALIGA 2 FHD 1176 --> NEW ERA
@@ -519,8 +525,6 @@ http://127.0.0.1:6878/ace/getstream?id=108b33a44b6ab295f6301d0a2c433a1ef330d5a4
 http://127.0.0.1:6878/ace/getstream?id=b3f2b59e44fe70f45dca643107f88b6fcff80672
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", DAZN Baloncesto SDp * 8639 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=4005aabe21ba9c6d748845db91e4f48d99f58639
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", DAZN Baloncesto SDp * 84ac --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=fc912a111ea5a88e02b858b5014d2358b11c84ac
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", DAZN Baloncesto FHDp ** cf07 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=6fbd92735502bdebbf1ea58f4298e49759c0cf07
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", DAZN Baloncesto SDp ** 9fa5 --> ELCANO
@@ -551,10 +555,10 @@ http://127.0.0.1:6878/ace/getstream?id=9bc65384425e92f3a28f977508db3df62d037300
 http://127.0.0.1:6878/ace/getstream?id=c8c33b2673efe7f386790c5966643820578f3535
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Baloncesto FHDp * 08b6 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=e3816fbc661fbc8b2b656aee9483d0a55a1608b6
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Baloncesto FHDp ** 1aa0 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=34b91125bd752462f1eca2d8d52f5f40fa761aa0
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Baloncesto FHDp ** 21f1 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=88113ee23295b8930ae328a88a8c1b861b8f21f1
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Baloncesto FHDp ** 1aa0 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=34b91125bd752462f1eca2d8d52f5f40fa761aa0
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ CINE ESPAnOL HD Spain cd1b --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=812151e00822387172fb695f526415c45ad8cd1b
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Documentales HD Spain bef7 --> NEW LOOP
@@ -599,18 +603,6 @@ http://127.0.0.1:6878/ace/getstream?id=2fab80a8445e31cb98169c0907600e1545ea8557
 http://127.0.0.1:6878/ace/getstream?id=7a57543cb6061648dc44c5d4321bd100bc8a47ca
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", UFC Fight HD FHDp * 38a3 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=c9e8dd81c193468342f1424d409a254fc24038a3
-#EXTINF:-1 tvg-logo="https://www.adslzone.net/app/uploads-adslzone.net/2025/12/dazn-baloncesto-movistar-plus.png" group-title="BALONCESTO",DAZN Baloncesto 1080p **
-http://127.0.0.1:6878/ace/getstream?id=853129258a5cb51f27829eddb934e58b45978344
-#EXTINF:-1 tvg-logo="https://www.adslzone.net/app/uploads-adslzone.net/2025/12/dazn-baloncesto-movistar-plus.png" group-title="BALONCESTO",DAZN Baloncesto 3 1080p **
-http://127.0.0.1:6878/ace/getstream?id=13d68ecb392251a81489ce75be90388498ecfb91
-#EXTINF:-1 tvg-id="DAZN 1 HD" tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" group-title="DAZN",DAZN 1 720p *
-http://127.0.0.1:6878/ace/getstream?id=a116ce3ff95c41c60e987e2b1aa247007f707884
-#EXTINF:-1 tvg-id="DAZN 1 HD" tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" group-title="DAZN",DAZN 1 1080p *
-http://127.0.0.1:6878/ace/getstream?id=dddff67edfa7061f643ec5ae0be110169850363d
-#EXTINF:-1 tvg-id="DAZN 2 HD" tvg-logo="https://i.ibb.co/Kz0GXSX/dazn2.png" group-title="DAZN",DAZN 2 1080p *
-http://127.0.0.1:6878/ace/getstream?id=01ce89b571b6c89bc19ccaafc913d483ac65c61d
-#EXTINF:-1 tvg-id="DAZN 4 HD" tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" group-title="DAZN",DAZN 4 1080p *
-http://127.0.0.1:6878/ace/getstream?id=d669c6cee7173a1c8994075f7050a6526655b1dc
 #EXTINF:-1 tvg-logo="https://espnpressroom.com/us/files/2023/02/New-NBA-Logo-379x220.png" group-title="NBA",NBA ESPN 720p *
 http://127.0.0.1:6878/ace/getstream?id=bf3773e7f5e53c11347c70c18bd085322efbc90f
 #EXTINF:-1 tvg-logo="https://espnpressroom.com/us/files/2023/02/New-NBA-Logo-379x220.png" group-title="NBA",NBA ESPN 1080p *
