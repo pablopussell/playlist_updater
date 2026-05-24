@@ -145,10 +145,10 @@ http://127.0.0.1:6878/ace/getstream?id=ed6188dcbb491efeb2092c1a6199226c27f61727
 http://127.0.0.1:6878/ace/getstream?id=895d08633bb22c2573281655cf3ca44de476cc73
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 eaa4 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=d719181097d256073844390b3e094fbcb1bceaa4
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 f6d1 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=b08e158ea3f5c72084f5ff8e3c30ca2e4d1ff6d1
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 9a69 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=bcf9dc38f92e90a71b87bd54b3bac91b76d09a69
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 f6d1 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=b08e158ea3f5c72084f5ff8e3c30ca2e4d1ff6d1
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 HD be30 --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=6d325cda6ed591647ef5e91edd043147bce8be30
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 0076 --> SPORT TV
@@ -277,10 +277,10 @@ http://127.0.0.1:6878/ace/getstream?id=71cb5e2567a8b39f5bdc4fa791992781b052f0bc
 http://127.0.0.1:6878/ace/getstream?id=385abcf801b787eec6ed6624908758bb165c0a55
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/dazn-laliga-es.png" tvg-id="DAZN LaLiga HD" group-title="LA LIGA", DAZN LA LIGA 1 d889 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=cc108ae39f92c48f6c946763047bd1c9b7b7d889
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/dazn-laliga-es.png" tvg-id="DAZN LaLiga HD" group-title="LA LIGA", DAZN LA LIGA 1 a51f --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=7f9857c45764ef2c7cdfb619b89db3056a57a51f
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/dazn-laliga-es.png" tvg-id="DAZN LaLiga HD" group-title="LA LIGA", DAZN LA LIGA 1 fd8e --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=9c588ac92554746c489bc553773d959f6d2dfd8e
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/dazn-laliga-es.png" tvg-id="DAZN LaLiga HD" group-title="LA LIGA", DAZN LA LIGA 1 a51f --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=7f9857c45764ef2c7cdfb619b89db3056a57a51f
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/dazn-laliga-es.png" tvg-id="DAZN LaLiga HD" group-title="LA LIGA", DAZN LA LIGA 1 1539 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=fd89bfb7b1c6005dc874ef6c0771c09372461539
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/dazn-laliga-es.png" tvg-id="DAZN LaLiga HD" group-title="LA LIGA", DAZN LA LIGA 1 ef3b --> ELCANO
@@ -603,8 +603,6 @@ http://127.0.0.1:6878/ace/getstream?id=ed6524f8f73c30cf102fde66f2cb520f4b5842e3
 http://127.0.0.1:6878/ace/getstream?id=ec7aeef5723f654ee705a192bdcf4eff2fc7c311
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Baloncesto 2 FHDp * 3535 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=c8c33b2673efe7f386790c5966643820578f3535
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Baloncesto 2 FHDp ** 21f1 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=88113ee23295b8930ae328a88a8c1b861b8f21f1
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Baloncesto FHDp * 08b6 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=e3816fbc661fbc8b2b656aee9483d0a55a1608b6
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Baloncesto FHDp ** 1aa0 --> ELCANO
@@ -643,10 +641,10 @@ http://127.0.0.1:6878/ace/getstream?id=ffa09e597804001f634dd1829f031823411a2595
 http://127.0.0.1:6878/ace/getstream?id=93780e4164ed775a9a7cd67c44716de58463fa0a
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RFEF TV FHDp * 355f --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=177796041773be99b489dd3ce86144f243e7355f
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RFEF TV FHDp ** c351 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=854ff9c607101791346111cd2366a392c3b8c351
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RFEF TV FHDp ** cc7f --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=3fbc1b7dc316f19b77e7f7cfc775a0af67adcc7f
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", RFEF TV FHDp ** c351 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=854ff9c607101791346111cd2366a392c3b8c351
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Sky Sports LaLiga HD 8557 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=2fab80a8445e31cb98169c0907600e1545ea8557
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Sport TV2 Portugal * 42fc --> ELCANO
@@ -655,6 +653,8 @@ http://127.0.0.1:6878/ace/getstream?id=4332215a79ff88dbd60c79f99e4929faddd542fc
 http://127.0.0.1:6878/ace/getstream?id=a5b462da19ee1a055f10ca1239c88670e9e6c4d1
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", SuperTennis HD 47ca --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=7a57543cb6061648dc44c5d4321bd100bc8a47ca
+#EXTINF:-1 tvg-id="M+ Baloncesto 2" tvg-logo="https://www.adslzone.net/app/uploads-adslzone.net/2026/04/baloncesto-movistar-plus-canales.jpg" group-title="BALONCESTO",M+ Baloncesto 2 1080p **
+http://127.0.0.1:6878/ace/getstream?id=88113ee23295b8930ae328a88a8c1b861b8f21f1
 #EXTINF:-1 tvg-id="Eurosport 1 HD" tvg-logo="https://i.ibb.co/r2Yd7xD/euro1.png" group-title="EUROSPORT",Eurosport 1 720p **
 http://127.0.0.1:6878/ace/getstream?id=313213b3b99c0f7437f68c8ea5a7b2b6d7b8a153
 #EXTINF:-1 tvg-id="DAZN F1 HD" tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" group-title="FORMULA 1",DAZN F1 1080p **
@@ -663,6 +663,10 @@ http://127.0.0.1:6878/ace/getstream?id=fd53cfa7055fe458d4f5c0ff59a06cd43723be55
 http://127.0.0.1:6878/ace/getstream?id=7efe62956b1f395161e217df1f438c8bf0d4416b
 #EXTINF:-1 tvg-id="M+ LaLiga HD" tvg-logo="https://i.ibb.co/yfV1Q8n/liga.png" group-title="LA LIGA",M+ LaLiga 1080p **
 http://127.0.0.1:6878/ace/getstream?id=3ce95bc9d6fc63676d828bb2cfc7a1f1854fd259
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBCa6SydXxbOh3qbRLTAWW6FOnRo5nXa9kw&s" group-title="LA LIGA",SKY Sports LaLiga 1080p **
+http://127.0.0.1:6878/ace/getstream?id=e9975d38aaa4475ac0b1fa0faa541bbadd85a662
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKBCa6SydXxbOh3qbRLTAWW6FOnRo5nXa9kw&s" group-title="LA LIGA",SKY Sports LaLiga SD **
+http://127.0.0.1:6878/ace/getstream?id=a9bddffdff085cdc18b34218d5dc1093b88e3c0a
 #EXTINF:-1 tvg-id="M+ Liga de Campeones HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" group-title="LIGA DE CAMPEONES",M+ Liga de Campeones 1080p **
 http://127.0.0.1:6878/ace/getstream?id=91af434b0bb521189286f8cbbab1aed39d7536fe
 #EXTINF:-1 tvg-id="M+ Liga de Campeones HD" tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/master/icon/M%2B%20Liga%20de%20Campeones.png" group-title="LIGA DE CAMPEONES",M+ Liga de Campeones 1080p **
@@ -677,5 +681,41 @@ http://127.0.0.1:6878/ace/getstream?id=8cd8fd69c6755ec452e9e74b33a0d1a653452191
 http://127.0.0.1:6878/ace/getstream?id=765f6a743bcfde948418aaf0de6e66de6a9fbaa6
 #EXTINF:-1 tvg-id="M+ Deportes 7" tvg-logo="https://www.movistarplus.es/recorte/n/caratula5/M2114916V1621463" group-title="MOVISTAR DEPORTES",M+ Deportes 7 1080p **
 http://127.0.0.1:6878/ace/getstream?id=2d549bbcd898b09c4b736e6e3e83e8e8c19fcbda
+#EXTINF:-1 tvg-id="M+ Vamos 2" tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" group-title="MOVISTAR DEPORTES",M+ VAMOS 2 1080p **
+http://127.0.0.1:6878/ace/getstream?id=0cd11c1f51b84ebe9954496b3ef9b6aeccf7307c
 #EXTINF:-1 tvg-logo="https://espnpressroom.com/us/files/2023/02/New-NBA-Logo-379x220.png" group-title="NBA",NBA ESPN 1080p *
 http://127.0.0.1:6878/ace/getstream?id=812726de17b7fdc6c0b5139b012fe336a049903a
+#EXTINF:-1 tvg-id="SKYSPORTSPREMIER.GB" tvg-name="SKY SPORTS PREMIER" group-title="ENGLISH CHANNELS" tvg-country="GB",17:00 | England Premier League | Crystal Palace vs Arsenal | SKY SPORTS PREMIER | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=ec5eabe0144ccfffc337e1d6708e2afb81d0638e
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",17:00 | England Premier League | Tottenham Hotspur vs Everton | SKY SPORTS MAIN EVENT | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",17:00 | England Premier League | Tottenham Hotspur vs Everton | SKY SPORTS MAIN EVENT | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",17:00 | England Premier League | West Ham United vs Leeds United | SKY SPORTS FOOTBALL | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",17:00 | England Premier League | West Ham United vs Leeds United | SKY SPORTS FOOTBALL | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
+#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Villarreal vs Atletico Madrid | PREMIER SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=4903ca695edb64bc72ae29eb85a5333ba0139537
+#EXTINF:-1 tvg-id="PREMIERSPORT2.GB" tvg-name="PREMIER SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",21:00 | Spain La Liga | Villarreal vs Atletico Madrid | PREMIER SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=086e4c7ccc0b80e2960a553d04dac1024c7787b9
+#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Italy Serie A | Torino vs Juventus | TNT SPORT 3 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=5f966c123759de46dff29c379266b7a403452033
+#EXTINF:-1 tvg-id="TNTSPORT3.GB" tvg-name="TNT SPORT 3" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Italy Serie A | Torino vs Juventus | TNT SPORT 3 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=d57ebd44296b0c92c0661cc964e737a54b852cec
+#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Italy Serie A | Cremonese vs Como | TNT SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=01dcc1ea3387c2b73953efe3f52286a770737d7c
+#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",20:45 | Italy Serie A | Cremonese vs Como | TNT SPORT 2 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:00 | Netherlands Eredivisie Conference League Play Offs | Ajax vs Utrecht | PREMIER SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:00 | Netherlands Eredivisie Conference League Play Offs | Ajax vs Utrecht | PREMIER SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=13ddaf59c0f2d760fd3775acc254e13825206eac
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | England League One Play Ofs | Bolton Wanderers vs Stockport County | SKY SPORTS MAIN EVENT | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=eab7aeef0218ce8b0752e596e4792b69eda4df5e
+#EXTINF:-1 tvg-id="SKYSPORTSMAINEVENT.GB" tvg-name="SKY SPORTS MAIN EVENT" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | England League One Play Ofs | Bolton Wanderers vs Stockport County | SKY SPORTS MAIN EVENT | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=78266c15035d0ad8cbc58f821733931e1de434ab
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | England League One Play Ofs | Bolton Wanderers vs Stockport County | SKY SPORTS FOOTBALL | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=8dbe2d515e9131fa311353537736f8c94be9b26d
+#EXTINF:-1 tvg-id="SKYSPORTSFOOTBALL.GB" tvg-name="SKY SPORTS FOOTBALL" group-title="ENGLISH CHANNELS" tvg-country="GB",14:00 | England League One Play Ofs | Bolton Wanderers vs Stockport County | SKY SPORTS FOOTBALL | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=54de746f7823812312b4000422618465f7d58f87
