@@ -557,19 +557,15 @@ http://127.0.0.1:6878/ace/getstream?id=0d780c1fb5fdf2121d9544f1a6892cb1053dd061
 http://127.0.0.1:6878/ace/getstream?id=8f59ce96e4c902ba2f5193af07546d7ff17fc3bc
 #EXTINF:-1 tvg-logo="https://diretele.com/wp-content/uploads/2018/09/La-Otra-en-directo.png" group-title="DEPORTES",La Otra 1080p
 http://127.0.0.1:6878/ace/getstream?id=4a53f3b7ebaef91aea7d46613fc4869e09d352c6
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",11:00 | Unknown League | Moto GP vs Qualifying | TNT SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=01dcc1ea3387c2b73953efe3f52286a770737d7c
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",11:00 | Unknown League | Moto GP vs Qualifying | TNT SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:00 | Europe UEFA Champions League Final | PSG vs Arsenal | TNT SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
-#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",18:00 | Europe UEFA Champions League Final | PSG vs Arsenal | TNT SPORT 1 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",00:30 | Canada Canadian Premier League | Washington Spirit vs Seattle Reign | TNT SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=01dcc1ea3387c2b73953efe3f52286a770737d7c
-#EXTINF:-1 tvg-id="TNTSPORT2.GB" tvg-name="TNT SPORT 2" group-title="ENGLISH CHANNELS" tvg-country="GB",00:30 | Canada Canadian Premier League | Washington Spirit vs Seattle Reign | TNT SPORT 2 | [Reino Unido]
-http://127.0.0.1:6878/ace/getstream?id=d63d8a57cf471394bfa9f619bbd68b01ae27a801
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",22:30 | North America CONCACAF Champions Cup | Gremio vs Corinthians | PREMIER SPORT 1 | [Reino Unido]
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:30 | Unknown League | USA vs Senegal | PREMIER SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
-#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",22:30 | North America CONCACAF Champions Cup | Gremio vs Corinthians | PREMIER SPORT 1 | [Reino Unido]
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",21:30 | Unknown League | USA vs Senegal | PREMIER SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=13ddaf59c0f2d760fd3775acc254e13825206eac
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England FA Womens Cup | Brighton & Hove Albion vs Manchester City | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=19c5c13a8e7273d78d53fdaea3deaf1b80e938fa
+#EXTINF:-1 tvg-id="TNTSPORT1.GB" tvg-name="TNT SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",16:00 | England FA Womens Cup | Brighton & Hove Albion vs Manchester City | TNT SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=efc60cfe5e3a349baa02bcc49f6647c21a9c3c5b
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",01:30 | England FA Womens Cup | Cruzeiro vs Fluminense | PREMIER SPORT 1 | [Reino Unido]
+http://127.0.0.1:6878/ace/getstream?id=75a56863b6fe0407ad4305b4d7ee5643c3923565
+#EXTINF:-1 tvg-id="PREMIERSPORT1.GB" tvg-name="PREMIER SPORT 1" group-title="ENGLISH CHANNELS" tvg-country="GB",01:30 | England FA Womens Cup | Cruzeiro vs Fluminense | PREMIER SPORT 1 | [Reino Unido]
 http://127.0.0.1:6878/ace/getstream?id=13ddaf59c0f2d760fd3775acc254e13825206eac
