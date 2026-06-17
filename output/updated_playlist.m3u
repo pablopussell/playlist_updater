@@ -441,6 +441,8 @@ http://127.0.0.1:6878/ace/getstream?id=a211931dace9e4d8975a036b60836fac753e33de
 http://127.0.0.1:6878/ace/getstream?id=cd243637855e2c5b2ce926f86032dfc430c79ebb
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", CALCIO EVENTOS FHD 7955 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=1e045b7e16a5c2c3e5a8c0c0176efa26b63d7955
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", CANAL 5 MX FHDp ** 0fc9 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=2f632f8996f1dc4ac00fe4e08e4f9ac90ea80fc9
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Canal+ action 9ec9 --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=5268a2b348aa53e325f99054a9da7cf1a2179ec9
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", CANAL+ SPORT d5a4 --> NEW LOOP
@@ -485,6 +487,8 @@ http://127.0.0.1:6878/ace/getstream?id=739792a3225e5eb3056f4faa7b1137c7f161f23c
 http://127.0.0.1:6878/ace/getstream?id=ed6524f8f73c30cf102fde66f2cb520f4b5842e3
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Film+ HD c311 --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=ec7aeef5723f654ee705a192bdcf4eff2fc7c311
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Fox Sport 4K ** 7b0a --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=d389b0c2474bb1ab827413d87823451ee4c07b0a
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Fox Sport FHDp ** 4ce9 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=91826b587ffc2a94dcb104928fca7a33ae6b4ce9
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ CINE ESPAnOL HD Spain cd1b --> NEW LOOP
@@ -519,7 +523,3 @@ http://127.0.0.1:6878/ace/getstream?id=93780e4164ed775a9a7cd67c44716de58463fa0a
 http://127.0.0.1:6878/ace/getstream?id=2fab80a8445e31cb98169c0907600e1545ea8557
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", SuperTennis HD 47ca --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=7a57543cb6061648dc44c5d4321bd100bc8a47ca
-#EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/223/270/png-clipart-televisa-xhgc-tdt-television-channel-canal-5-others-television-white-thumbnail.png" group-title="MUNDIAL",CANAL 5 MX 1080p **
-http://127.0.0.1:6878/ace/getstream?id=2f632f8996f1dc4ac00fe4e08e4f9ac90ea80fc9
-#EXTINF:-1 tvg-logo="https://images.hoy.cr/wp-content/uploads/2026/02/FOX.jpeg" group-title="MUNDIAL",Fox Sport 4K **
-http://127.0.0.1:6878/ace/getstream?id=d389b0c2474bb1ab827413d87823451ee4c07b0a
