@@ -559,8 +559,6 @@ http://127.0.0.1:6878/ace/getstream?id=2c54a4def58f41fc0d2163450a63f12955b656aa
 http://127.0.0.1:6878/ace/getstream?id=7bede102385c65a545db531af476ef18c31f6258
 #EXTINF:-1 tvg-id="M+ Deportes 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-5-por-movistar-plus-es.png" group-title="MOVISTAR DEPORTES",M+ Deportes 5 1080p *
 http://127.0.0.1:6878/ace/getstream?id=646a1ed4ece843de1979f7888cbdd4d937506a28
-#EXTINF:-1 tvg-id="M+ Deportes 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-5-por-movistar-plus-es.png" group-title="MOVISTAR DEPORTES",M+ Deportes 5 1080p **
-http://127.0.0.1:6878/ace/getstream?id=15ec214bb10925dadd16a1716bb2042af6008a93
 #EXTINF:-1 tvg-logo="https://e01-elmundo.uecdn.es/television/programacion-tv/img/v2/programas/63/631907.png" group-title="DEPORTES",TV5Monde Europe **
 http://127.0.0.1:6878/ace/getstream?id=ba61b7a4f51c8547ca47978fbd567bc46427bb95
 #EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/223/270/png-clipart-televisa-xhgc-tdt-television-channel-canal-5-others-television-white-thumbnail.png" group-title="MUNDIAL",CANAL 5 MX 1080p **
@@ -581,5 +579,7 @@ http://127.0.0.1:6878/ace/getstream?id=584e20154750a15d14cb59953bb9cdd923c331bb
 http://127.0.0.1:6878/ace/getstream?id=aab0be9632ef2f53e99f2e596a8e6a30ed34a29c
 #EXTINF:-1 tvg-logo="https://images.twinkl.co.uk/tr/image/upload/t_illustration/illustation/World-Cup-Trophy---Football-Award-Winner-Event-General-Secondary.png" group-title="MUNDIAL",FIFA World Cup 1 **
 http://127.0.0.1:6878/ace/getstream?id=e8670925c3bfd0ceafa54192772a6b8a482bd94b
+#EXTINF:-1 tvg-logo="https://images.hoy.cr/wp-content/uploads/2026/02/FOX.jpeg" group-title="MUNDIAL",Fox Sport 1080p **
+http://127.0.0.1:6878/ace/getstream?id=ea17dcd0ff2234f634f8855118712bd394bb784a
 #EXTINF:-1 group-title="MUNDIAL",TNT Sport 1 **
 http://127.0.0.1:6878/ace/getstream?id=7030f82a081ed0a32f75a2d16ba0c995cbf4e686
