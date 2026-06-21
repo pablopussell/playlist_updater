@@ -547,3 +547,11 @@ http://127.0.0.1:6878/ace/getstream?id=2fab80a8445e31cb98169c0907600e1545ea8557
 http://127.0.0.1:6878/ace/getstream?id=7a57543cb6061648dc44c5d4321bd100bc8a47ca
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", TV5Monde Europe * ebb8 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=59f2d0e15869d73f19d7ac441d5aedffb6c4ebb8
+#EXTINF:-1 tvg-id="DAZN 1 HD" tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" group-title="DAZN",DAZN 1 1080p
+http://127.0.0.1:6878/ace/getstream?id=78124d96a1a4601e7910f50e36a16e35efcfb398
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/hXinMW0gpJZ21tefgfVij_aZ3V1g3zS2-Dw5HN2zOXkFZiYrWSHhcEDp9xIKN93eVAgH550-Og=s900-c-k-c0x00ffffff-no-rj" group-title="MOTOGP",Sky Sport MotoGP 1080p
+http://127.0.0.1:6878/ace/getstream?id=ea1b773caf164fd1ac87b11342cf178478f830ea
+#EXTINF:-1 tvg-logo="https://betbrothers.es/wp-content/uploads/2026/02/mundial-en-dazn.jpg" group-title="MUNDIAL",Dazn Mundial 3
+http://127.0.0.1:6878/ace/getstream?id=7cf306fc097deca7005b220b1f6206bd654b5ca5
+#EXTINF:-1 group-title="MUNDIAL",TNT Sport 3
+http://127.0.0.1:6878/ace/getstream?id=fa9e431edc455152f038a51d7873c6f4b6aaeb59
