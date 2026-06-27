@@ -121,10 +121,10 @@ http://127.0.0.1:6878/ace/getstream?id=724f9b252b11064e3f16220717fd52bd3a510b5f
 http://127.0.0.1:6878/ace/getstream?id=f16d68fa5ff64f3894a45062ca28e4e66f142c6a
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 381c --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=20086a76248efe8d5230c15d41c69bae8fa6381c
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 129e --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=02be332ebead0484a5354fa25e97b6833b8b129e
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 0a8c --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=f8b0eae8fda973cf426311541d1668aa592f0a8c
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 129e --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=02be332ebead0484a5354fa25e97b6833b8b129e
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 HD be30 --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=6d325cda6ed591647ef5e91edd043147bce8be30
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" tvg-id="DAZN F1 HD" group-title="FORMULA 1", DAZN F1 0076 --> SPORT TV
@@ -461,10 +461,10 @@ http://127.0.0.1:6878/ace/getstream?id=11cbb5346d28af0b972e646832f4be23dd39502d
 http://127.0.0.1:6878/ace/getstream?id=18b03739d660f0066364343e226e437bf2555d56
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn MotoGP FHDp * e1a5 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=20d4b3586bb822c3618cf8fb665a304869c5e1a5
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn MotoGP FHDp ** 5cea --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=c53bdb3be55d12c5188d25085f1bb16911c15cea
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn MotoGP FHDp ** 2028 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=342ca6975a4884d81f9fec5c4085a47060bd2028
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn MotoGP FHDp ** 5cea --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=c53bdb3be55d12c5188d25085f1bb16911c15cea
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn Mundial 1 * d507 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=ccfde4bc75d14c79dd09af72434568a0e732d507
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn Mundial 1 ** 9b36 --> ELCANO
