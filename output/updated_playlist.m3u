@@ -259,20 +259,28 @@ http://127.0.0.1:6878/ace/getstream?id=332d8fdeb9c51385230b8c9448e047ccc4a6355d
 http://127.0.0.1:6878/ace/getstream?id=f828a32d8ea03a3cabd3ce3ebecb249ec111c7e5
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 5b47 --> NEW ERA III
 http://127.0.0.1:6878/ace/getstream?id=af393f93814d03160d48d2730759593b7bea5b47
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 74f6 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=3b50a1dca0977e3761d016edd79314ab797f74f6
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 8281 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=6e031aed136bf97d8667fcd5fc49c73256928281
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES b0ab --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=7f8b4f57bf234510d3f607492508d68167d4b0ab
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 776d --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=c6a824a81b36f6c3529826477caf2ad94b45776d
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 662f --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=cf5327fe9c962a29dfff3868f4349ff2b0b4662f
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES ee05 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=77cf022557c56cdf8d8115f50e61f846ad72ee05
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" tvg-id="M+ Deportes HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 74f6 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=3b50a1dca0977e3761d016edd79314ab797f74f6
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 FHD 298c --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=edd06f11e1cef292a1d795e15207ef2f580e298c
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 FHD 25a3 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=6e212a916c83638268047dd2757c95b14f7d25a3
-#EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 d539 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=fd2aea1aa8fcddebfda1644118c6806230a1d539
-#EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 e0ee --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=3774d8feab016ca766b35ea8488e7514ca30e0ee
+#EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 da90 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=6b15368775693c33c49fab02e7900c1976a5da90
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 9eed --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=3ee6a0b0e3cacea68107f61bf398f651d8159eed
+#EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 2191 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=8cd8fd69c6755ec452e9e74b33a0d1a653452191
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" tvg-id="M+ Deportes 2 HD" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 2 HD 52b5 --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=3afe1af18f8ff78e9946856911b00c67477052b5
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jDg5qWD/deportes3.png" tvg-id="M+ Deportes 3" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 3 FHD 4eee --> NEW ERA
@@ -281,20 +289,44 @@ http://127.0.0.1:6878/ace/getstream?id=753d4b1f7c4ef43238b5cf23b05572b550a44eee
 http://127.0.0.1:6878/ace/getstream?id=e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jDg5qWD/deportes3.png" tvg-id="M+ Deportes 3" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 3 11f8 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=d448a45840bfd60678abb2a45dd6044c9c8d11f8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/jDg5qWD/deportes3.png" tvg-id="M+ Deportes 3" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 3 6a01 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=f4d9011721fad5098febbe4d7c078a582e176a01
+#EXTINF:-1 tvg-logo="https://i.ibb.co/jDg5qWD/deportes3.png" tvg-id="M+ Deportes 3" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 3 d810 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=84aed52c5deb78f58595d88250e7a2bd04dfd810
 #EXTINF:-1 tvg-logo="https://i.ibb.co/jDg5qWD/deportes3.png" tvg-id="M+ Deportes 3" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 3 HD 5ed0 --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=39fefdecfc953dcf6e7c589739bf486c2e605ed0
+#EXTINF:-1 tvg-logo="https://i.ibb.co/WDN9NN9/deportes4.png" tvg-id="M+ Deportes 4" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 4 794f --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=4abe06c5cce7cb3c6bef2c3bccaafefd3299794f
+#EXTINF:-1 tvg-logo="https://i.ibb.co/WDN9NN9/deportes4.png" tvg-id="M+ Deportes 4" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 4 6258 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=7bede102385c65a545db531af476ef18c31f6258
 #EXTINF:-1 tvg-logo="https://i.ibb.co/WDN9NN9/deportes4.png" tvg-id="M+ Deportes 4" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 4 HD 3869 --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=8b5f9d967384afab226dd759e6e9dfaee9993869
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-5-por-movistar-plus-es.png" tvg-id="M+ Deportes 5" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 5 FHD f916 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=5913205fb6d6d162a50222709aab6129eb7cf916
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-5-por-movistar-plus-es.png" tvg-id="M+ Deportes 5" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 5 6a28 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=646a1ed4ece843de1979f7888cbdd4d937506a28
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-5-por-movistar-plus-es.png" tvg-id="M+ Deportes 5" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 5 8a93 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=15ec214bb10925dadd16a1716bb2042af6008a93
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-5-por-movistar-plus-es.png" tvg-id="M+ Deportes 5" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 5 HD 7a90 --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=3230cdca852a10325222e3c546e499e31d547a90
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-6-por-movistar-plus-es.png" tvg-id="M+ Deportes 6" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 6 FHD 3c03 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=e4124b2143ed75e5ce902bed61be08cc5e5c3c03
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-6-por-movistar-plus-es.png" tvg-id="M+ Deportes 6" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 6 524a --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=e6cd9205e26b3b6680f607030c702e911272524a
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-6-por-movistar-plus-es.png" tvg-id="M+ Deportes 6" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 6 baa6 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=765f6a743bcfde948418aaf0de6e66de6a9fbaa6
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-6-por-movistar-plus-es.png" tvg-id="M+ Deportes 6" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 6 HD 0f7c --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=8f982a0d6e3196c12d0034142b65008321150f7c
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-7-por-movistar-plus-es.png" tvg-id="M+ Deportes 7" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 7 8e05 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=9b38816906198580dbeb35b68673e1d060668e05
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-7-por-movistar-plus-es.png" tvg-id="M+ Deportes 7" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 7 cbda --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=2d549bbcd898b09c4b736e6e3e83e8e8c19fcbda
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-8-por-movistar-plus-es.png" tvg-id="M+ Deportes 8" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 8 e99a --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=f5c100695175ba52099664ddb4c5fc4ae0ebe99a
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-8-por-movistar-plus-es.png" tvg-id="M+ Deportes 8" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 8 083a --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=abe6834b6e2509d2ff5b5b04f7ecb1db6e81083a
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-8-por-movistar-plus-es.png" tvg-id="M+ Deportes 8" group-title="MOVISTAR DEPORTES", MOVISTAR DEPORTES 8 64d4 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=56820609907a5405f8fa4ddc06eb9af04f6e64d4
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Vp04N3pT/golf.png" tvg-id="M+ Golf HD" group-title="MOVISTAR DEPORTES", MOVISTAR GOLF FHD 1031 --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=8546cff89e4ee8bf3ad31cf6457c3bc2c4341031
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Vp04N3pT/golf.png" tvg-id="M+ Golf HD" group-title="MOVISTAR DEPORTES", MOVISTAR GOLF FHD 5174 --> NEW ERA
@@ -331,6 +363,8 @@ http://127.0.0.1:6878/ace/getstream?id=e1c2c2a74a3688066526e5ff212e13d2101f44ad
 http://127.0.0.1:6878/ace/getstream?id=8d66979e705a8b532b9243bbc0862c0f1c734ef0
 #EXTINF:-1 tvg-logo="https://e1.pngegg.com/pngimages/696/957/png-clipart-disney-channel-logo.png" tvg-id="Disney Channel" group-title="TDT", Disney Channel 86cc --> NEW ERA III
 http://127.0.0.1:6878/ace/getstream?id=94f87e54d3ad4660c800d2ec46b14ba29e0186cc
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Vf2GT70/la1.png" tvg-id="La 1 HD" group-title="TDT", LA 1 1102 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=979d3b873871a5a9a56d3eb481ca77b707e01102
 #EXTINF:-1 tvg-logo="https://i.ibb.co/YFzzqWw5/la2.png" tvg-id="La 2" group-title="TDT", LA 2 FHD c2ed --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=9934906503661142f97a044ae1509a294057c2ed
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SX1jhBzy/lasexta.png" tvg-id="La Sexta HD" group-title="TDT", LA SEXTA FHD 457f --> NEW ERA
@@ -373,6 +407,10 @@ http://127.0.0.1:6878/ace/getstream?id=7cf306fc097deca7005b220b1f6206bd654b5ca5
 http://127.0.0.1:6878/ace/getstream?id=584e20154750a15d14cb59953bb9cdd923c331bb
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Dazn Mundial 4 ** a29c --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=aab0be9632ef2f53e99f2e596a8e6a30ed34a29c
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Golf 2 FHDp ** 17ef --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=882074140fca664e119a43294afa2fb4a64917ef
+#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", M+ Golf FHDp ** 66eb --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=8121478d3d3e563ad6b98018bc1c0aeb2f6166eb
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Movistar Fanzone a6b5 --> NEW ERA III
 http://127.0.0.1:6878/ace/getstream?id=7aca5ddc8a21542b23fe51064504a2e600b6a6b5
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Movistar+ 8279 --> NEW LOOP
@@ -381,45 +419,3 @@ http://127.0.0.1:6878/ace/getstream?id=318c12f5f40d7bd9c0ab0c130bf9b96668098279
 http://127.0.0.1:6878/ace/getstream?id=ffa09e597804001f634dd1829f031823411a2595
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", TIMVISION 4K ** 32a0 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=60d362ac493aebcf82ec88f2f617d24cec5632a0
-#EXTINF:-1 tvg-id="M+ Deportes HD" tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" group-title="MOVISTAR DEPORTES",M+ Deportes 720p *
-http://127.0.0.1:6878/ace/getstream?id=6e031aed136bf97d8667fcd5fc49c73256928281
-#EXTINF:-1 tvg-id="M+ Deportes HD" tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" group-title="MOVISTAR DEPORTES",M+ Deportes 720p **
-http://127.0.0.1:6878/ace/getstream?id=7f8b4f57bf234510d3f607492508d68167d4b0ab
-#EXTINF:-1 tvg-id="M+ Deportes HD" tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" group-title="MOVISTAR DEPORTES",M+ Deportes 1080p *
-http://127.0.0.1:6878/ace/getstream?id=c6a824a81b36f6c3529826477caf2ad94b45776d
-#EXTINF:-1 tvg-id="M+ Deportes HD" tvg-logo="https://i.ibb.co/CV4CLjz/deportes.png" group-title="MOVISTAR DEPORTES",M+ Deportes 1080p **
-http://127.0.0.1:6878/ace/getstream?id=cf5327fe9c962a29dfff3868f4349ff2b0b4662f
-#EXTINF:-1 tvg-id="M+ Deportes 2 HD" tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" group-title="MOVISTAR DEPORTES",M+ Deportes 2 720p *
-http://127.0.0.1:6878/ace/getstream?id=6b15368775693c33c49fab02e7900c1976a5da90
-#EXTINF:-1 tvg-id="M+ Deportes 2 HD" tvg-logo="https://i.ibb.co/q95fBKV/deportes2.png" group-title="MOVISTAR DEPORTES",M+ Deportes 2 1080p **
-http://127.0.0.1:6878/ace/getstream?id=8cd8fd69c6755ec452e9e74b33a0d1a653452191
-#EXTINF:-1 tvg-id="M+ Deportes 3" tvg-logo="https://i.ibb.co/jDg5qWD/deportes3.png" group-title="MOVISTAR DEPORTES",M+ Deportes 3 1080p *
-http://127.0.0.1:6878/ace/getstream?id=f4d9011721fad5098febbe4d7c078a582e176a01
-#EXTINF:-1 tvg-id="M+ Deportes 3" tvg-logo="https://i.ibb.co/jDg5qWD/deportes3.png" group-title="MOVISTAR DEPORTES",M+ Deportes 3 1080p **
-http://127.0.0.1:6878/ace/getstream?id=84aed52c5deb78f58595d88250e7a2bd04dfd810
-#EXTINF:-1 tvg-id="M+ Deportes 4" tvg-logo="https://i.ibb.co/WDN9NN9/deportes4.png" group-title="MOVISTAR DEPORTES",M+ Deportes 4 1080p *
-http://127.0.0.1:6878/ace/getstream?id=4abe06c5cce7cb3c6bef2c3bccaafefd3299794f
-#EXTINF:-1 tvg-id="M+ Deportes 4" tvg-logo="https://i.ibb.co/WDN9NN9/deportes4.png" group-title="MOVISTAR DEPORTES",M+ Deportes 4 1080p **
-http://127.0.0.1:6878/ace/getstream?id=7bede102385c65a545db531af476ef18c31f6258
-#EXTINF:-1 tvg-id="M+ Deportes 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-5-por-movistar-plus-es.png" group-title="MOVISTAR DEPORTES",M+ Deportes 5 1080p *
-http://127.0.0.1:6878/ace/getstream?id=646a1ed4ece843de1979f7888cbdd4d937506a28
-#EXTINF:-1 tvg-id="M+ Deportes 5" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-5-por-movistar-plus-es.png" group-title="MOVISTAR DEPORTES",M+ Deportes 5 1080p **
-http://127.0.0.1:6878/ace/getstream?id=15ec214bb10925dadd16a1716bb2042af6008a93
-#EXTINF:-1 tvg-id="M+ Deportes 6" tvg-logo="https://www.movistarplus.es/recorte/n/caratula5/M2114916V1621463" group-title="MOVISTAR DEPORTES",M+ Deportes 6 1080p *
-http://127.0.0.1:6878/ace/getstream?id=e6cd9205e26b3b6680f607030c702e911272524a
-#EXTINF:-1 tvg-id="M+ Deportes 6" tvg-logo="https://www.movistarplus.es/recorte/n/caratula5/M2114916V1621463" group-title="MOVISTAR DEPORTES",M+ Deportes 6 1080p **
-http://127.0.0.1:6878/ace/getstream?id=765f6a743bcfde948418aaf0de6e66de6a9fbaa6
-#EXTINF:-1 tvg-id="M+ Deportes 7" tvg-logo="https://www.movistarplus.es/recorte/n/caratula5/M2114916V1621463" group-title="MOVISTAR DEPORTES",M+ Deportes 7 1080p **
-http://127.0.0.1:6878/ace/getstream?id=2d549bbcd898b09c4b736e6e3e83e8e8c19fcbda
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-8-por-movistar-plus-es.png" group-title="MOVISTAR DEPORTES",M+ Deportes 8 720p *
-http://127.0.0.1:6878/ace/getstream?id=f5c100695175ba52099664ddb4c5fc4ae0ebe99a
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-8-por-movistar-plus-es.png" group-title="MOVISTAR DEPORTES",M+ Deportes 8 1080p *
-http://127.0.0.1:6878/ace/getstream?id=abe6834b6e2509d2ff5b5b04f7ecb1db6e81083a
-#EXTINF:-1 tvg-id="M+ Deportes 8" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/spain/deportes-8-por-movistar-plus-es.png" group-title="MOVISTAR DEPORTES",M+ Deportes 8 1080p **
-http://127.0.0.1:6878/ace/getstream?id=56820609907a5405f8fa4ddc06eb9af04f6e64d4
-#EXTINF:-1 tvg-id="M+ Golf HD" tvg-logo="https://www.vhv.rs/dpng/d/424-4244985_file-movistar-golf-svg-logo-movistar-golf-hd.png" group-title="MOVISTAR DEPORTES",M+ Golf 1080p **
-http://127.0.0.1:6878/ace/getstream?id=8121478d3d3e563ad6b98018bc1c0aeb2f6166eb
-#EXTINF:-1 tvg-id="M+ Golf 2 HD" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/irjqp71744196637.png" group-title="MOVISTAR DEPORTES",M+ Golf 2 1080p **
-http://127.0.0.1:6878/ace/getstream?id=882074140fca664e119a43294afa2fb4a64917ef
-#EXTINF:-1 tvg-id="La 1 HD" tvg-logo="https://i.ibb.co/Vf2GT70/la1.png" group-title="TDT",La 1 TVE **
-http://127.0.0.1:6878/ace/getstream?id=979d3b873871a5a9a56d3eb481ca77b707e01102
