@@ -439,9 +439,9 @@ http://127.0.0.1:6878/ace/getstream?id=318c12f5f40d7bd9c0ab0c130bf9b96668098279
 http://127.0.0.1:6878/ace/getstream?id=ffa09e597804001f634dd1829f031823411a2595
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", TIMVISION 4K ** 32a0 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=60d362ac493aebcf82ec88f2f617d24cec5632a0
-#EXTINF:-1 tvg-id="DAZN 1 HD" tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" group-title="DAZN",DAZN 1 720p **
-http://127.0.0.1:6878/ace/getstream?id=f9c6a0e04cb062098571c6cbaa6fa4b60cc7e0cb
-#EXTINF:-1 tvg-logo="https://espnpressroom.com/us/files/2023/02/New-NBA-Logo.png" group-title="NBA",NBA ESPN 720p *
-http://127.0.0.1:6878/ace/getstream?id=bf3773e7f5e53c11347c70c18bd085322efbc90f
-#EXTINF:-1 tvg-logo="https://espnpressroom.com/us/files/2023/02/New-NBA-Logo.png" group-title="NBA",NBA ESPN 1080p *
-http://127.0.0.1:6878/ace/getstream?id=812726de17b7fdc6c0b5139b012fe336a049903a
+#EXTINF:-1 tvg-id="DAZN F1 HD" tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" group-title="FORMULA 1",DAZN F1 1080p *
+http://127.0.0.1:6878/ace/getstream?id=d719181097d256073844390b3e094fbcb1bceaa4
+#EXTINF:-1 tvg-id="DAZN F1 HD" tvg-logo="https://i.ibb.co/2Ndmtbp/f1.png" group-title="FORMULA 1",DAZN F1 1080p **
+http://127.0.0.1:6878/ace/getstream?id=0a81ba020d498aca1248e0591d8ffab99eb80bd4
+#EXTINF:-1 tvg-id="M+ Deportes 3" tvg-logo="https://i.ibb.co/jDg5qWD/deportes3.png" group-title="MOVISTAR DEPORTES",M+ Deportes 3 720p *
+http://127.0.0.1:6878/ace/getstream?id=e9ce6e62ff97f1da7f10fd449a3c8e8ee90b253d
