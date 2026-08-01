@@ -53,6 +53,8 @@ http://127.0.0.1:6878/ace/getstream?id=ade70f2c51cca519a4d8de1bb181af6e8532e1e1
 http://127.0.0.1:6878/ace/getstream?id=9fb99c40a2c45d5c5342b30626eb56140f980612
 #EXTINF:-1 tvg-logo="https://assets.laliga.com/assets/2023/07/13/medium/60e1502d7d6098162828bb002e98bdb4.png" tvg-id="GOL" group-title="DEPORTES", GOL PLAY FHD 4a3a --> NEW ERA
 http://127.0.0.1:6878/ace/getstream?id=b2d560741c006fc5e4a42412bb52dbd25a6a4a3a
+#EXTINF:-1 tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/master/icon/Esport%203.png?raw=true" tvg-id="Real Madrid TV" group-title="DEPORTES", REAL MADRID TV HD 7be7 --> ELCANO
+http://127.0.0.1:6878/ace/getstream?id=ac353757b626cedc6461d8eb73bfffa15fbb7be7
 #EXTINF:-1 tvg-logo="https://tvprofil.com/img/kanali-logo/Sky_Sports_Arena_GB_logo.png?1734015005" tvg-id="UK | Sky Sport Arena" group-title="DEPORTES", SKY SPORTS ARENA b79c --> SPORT TV
 http://127.0.0.1:6878/ace/getstream?id=d317a003e8047da2c36a2a2bb2289578c9a3b79c
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/refs/heads/master/icon/Sky%20Sport%20Cricket.png" tvg-id="UK | Sky Sport Cricket" group-title="DEPORTES", SKY SPORTS CRICKET 3ddd --> SPORT TV
@@ -317,8 +319,6 @@ http://127.0.0.1:6878/ace/getstream?id=2940120bf034db79a7f5849846ccea0255172eae
 http://127.0.0.1:6878/ace/getstream?id=651d6be899d1fafa107a265a9dc00ff914c1b548
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" tvg-id="M+ Vamos HD" group-title="MOVISTAR DEPORTES", MOVISTAR VAMOS 0e98 --> NEW ERA III
 http://127.0.0.1:6878/ace/getstream?id=86262568aa72b956b06ac67b1c310a32248a0e98
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" tvg-id="M+ Vamos HD" group-title="MOVISTAR DEPORTES", MOVISTAR VAMOS dc77 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=866a8af8faacf8fc9eb997ab5a68b4dfee4edc77
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" tvg-id="M+ Vamos HD" group-title="MOVISTAR DEPORTES", MOVISTAR VAMOS 67fc --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=ad5ca6e24f87f47a9c3c5bc10c7e8e5af46767fc
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gWMRpFB/vamos.png" tvg-id="M+ Vamos HD" group-title="MOVISTAR DEPORTES", MOVISTAR VAMOS ad16 --> ELCANO
@@ -385,5 +385,3 @@ http://127.0.0.1:6878/ace/getstream?id=318c12f5f40d7bd9c0ab0c130bf9b96668098279
 http://127.0.0.1:6878/ace/getstream?id=ffa09e597804001f634dd1829f031823411a2595
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Pluto TV Auto Motor Sport (720p) fa0a --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=93780e4164ed775a9a7cd67c44716de58463fa0a
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/davidmuma/picons_dobleM/refs/heads/master/icon/Real%20Madrid%20TV.png" group-title="DEPORTES",Real Madrid TV 1080p *
-http://127.0.0.1:6878/ace/getstream?id=ac353757b626cedc6461d8eb73bfffa15fbb7be7
