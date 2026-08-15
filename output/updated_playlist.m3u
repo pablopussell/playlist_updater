@@ -459,9 +459,5 @@ http://127.0.0.1:6878/ace/getstream?id=d6914c08d198edcfbac7562e3db75303bd8fde48
 http://127.0.0.1:6878/ace/getstream?id=ffa09e597804001f634dd1829f031823411a2595
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Pluto TV Auto Motor Sport (720p) fa0a --> NEW LOOP
 http://127.0.0.1:6878/ace/getstream?id=93780e4164ed775a9a7cd67c44716de58463fa0a
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", SPORT TV3 FHDp * 65b6 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=13d84366dcb9607c15cd9a78b5a3921046ac65b6
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", SPORT TV3 SDp ** fc6c --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=ec2cbc782281624753f20fb0f9a6797651ddfc6c
-#EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Sport TV7 FHDp * 5b27 --> ELCANO
-http://127.0.0.1:6878/ace/getstream?id=e6b9ccd80ee0027e887d0a27b07e8f032de25b27
