@@ -429,3 +429,5 @@ http://127.0.0.1:6878/ace/getstream?id=93780e4164ed775a9a7cd67c44716de58463fa0a
 http://127.0.0.1:6878/ace/getstream?id=f31d1f85570b58be8d5ab6f4f2d0f3f9c815c35f
 #EXTINF:-1 tvg-logo="" tvg-id="" group-title="OTROS", Sky Sport Tennis FHDp ** 7507 --> ELCANO
 http://127.0.0.1:6878/ace/getstream?id=b523277cc0d5d64be260dbf24df1ada1c0097507
+#EXTINF:-1 tvg-id="DAZN 1 HD" tvg-logo="https://i.ibb.co/FVzKq1y/dazn1.png" group-title="DAZN",DAZN 1 1080p **
+http://127.0.0.1:6878/ace/getstream?id=78124d96a1a4601e7910f50e36a16e35efcfb398
