@@ -592,6 +592,6 @@ http://127.0.0.1:6878/ace/getstream?id=13d84366dcb9607c15cd9a78b5a3921046ac65b6
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f3/Sport_TV7_%282024%29.png" group-title="DEPORTES",Sport TV7 1080p *
 http://127.0.0.1:6878/ace/getstream?id=e6b9ccd80ee0027e887d0a27b07e8f032de25b27
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/50/2/sport-tv-2023-logo-png_seeklogo-504108.png" group-title="DEPORTES",Sport TV+ 1080p *
-http://127.0.0.1:6878/ace/getstream?id=e24b30556ad82c782bbfa003b384b85ecea8f647
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/50/2/sport-tv-2023-logo-png_seeklogo-504108.png" group-title="DEPORTES",Sport TV+ 1080p *
 http://127.0.0.1:6878/ace/getstream?id=620df183a3d9647079aeee52dcb6dfd8c44eb447
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/50/2/sport-tv-2023-logo-png_seeklogo-504108.png" group-title="DEPORTES",Sport TV+ 1080p *
+http://127.0.0.1:6878/ace/getstream?id=e24b30556ad82c782bbfa003b384b85ecea8f647
