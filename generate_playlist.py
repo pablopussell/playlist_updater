@@ -33,11 +33,14 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 }
-REQUEST_TIMEOUT = 45
-MAX_ROUNDS = 4            # full passes over all gateways
-ROUND_BACKOFF = 15        # seconds, multiplied by round number
-MAX_RETRY_AFTER = 30      # cap on Retry-After sleeps
-DELAY_BETWEEN_FILES = 5   # be polite to gateways between playlist A and C
+REQUEST_TIMEOUT = 20
+MAX_ROUNDS = 2            # full passes over all gateways (fallback only)
+ROUND_BACKOFF = 10        # seconds, multiplied by round number
+MAX_RETRY_AFTER = 20      # cap on Retry-After sleeps
+DEADLINE_SECONDS = 120    # max time spent on gateways per playlist
+
+# Files downloaded by the workflow through the local Kubo node (preferred source)
+LOCAL_DIR = "downloads"
 
 # ---------------------------------------------------------------------------
 # Filtering
@@ -100,10 +103,28 @@ def fetch_once(url):
         return None
 
 
+def fetch_local(path):
+    """Read a file the workflow already downloaded via the local Kubo node."""
+    local_path = os.path.join(LOCAL_DIR, path)
+    if not os.path.exists(local_path):
+        return None
+    with open(local_path, encoding="utf-8", errors="replace") as f:
+        text = f.read()
+    if looks_like_m3u(text):
+        print(f"Using local Kubo download for {path}")
+        return text
+    print(f"Local file {local_path} doesn't look like an M3U; ignoring it")
+    return None
+
+
 def fetch_ipns(path):
-    """Try every gateway, several rounds, with backoff. Returns text or None."""
+    """Try every gateway with backoff and an overall deadline. Returns text or None."""
+    deadline = time.monotonic() + DEADLINE_SECONDS
     for rnd in range(1, MAX_ROUNDS + 1):
         for template in list(GATEWAY_TEMPLATES):
+            if time.monotonic() > deadline:
+                print(f"Gateway deadline reached for {path}")
+                return None
             url = template.format(key=IPNS_KEY, path=path)
             text = fetch_once(url)
             if text:
@@ -111,11 +132,16 @@ def fetch_ipns(path):
                 GATEWAY_TEMPLATES.remove(template)
                 GATEWAY_TEMPLATES.insert(0, template)
                 return text
-        if rnd < MAX_ROUNDS:
-            wait = ROUND_BACKOFF * rnd
+        wait = ROUND_BACKOFF * rnd
+        if rnd < MAX_ROUNDS and time.monotonic() + wait < deadline:
             print(f"All gateways failed (round {rnd}/{MAX_ROUNDS}); retrying in {wait}s")
             time.sleep(wait)
     return None
+
+
+def fetch_ipns_playlist(path):
+    """Preferred: local Kubo download. Fallback: public gateways. Then the cache."""
+    return fetch_local(path) or fetch_ipns(path)
 
 
 def fetch_direct(url):
@@ -209,9 +235,8 @@ def main():
     seen_urls = set()
     seen_extgrp = set()
 
-    lines_a = load_playlist(PATH_A, lambda: fetch_ipns(PATH_A))
-    time.sleep(DELAY_BETWEEN_FILES)
-    lines_c = load_playlist(PATH_C, lambda: fetch_ipns(PATH_C))
+    lines_a = load_playlist(PATH_A, lambda: fetch_ipns_playlist(PATH_A))
+    lines_c = load_playlist(PATH_C, lambda: fetch_ipns_playlist(PATH_C))
 
     # Don't overwrite the output with an empty playlist if the main sources are gone
     if not lines_a and not lines_c:
