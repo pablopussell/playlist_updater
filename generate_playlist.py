@@ -9,7 +9,7 @@ import requests
 # Sources
 # ---------------------------------------------------------------------------
 IPNS_KEY = "k51qzi5uqu5dh5qej4b9wlcr5i6vhc7rcfkekhrxqek5c9lk6gdaiik820fecs"
-PATH_A = "hashes_acestream.m3u"
+PATH_A = "hashes.m3u"
 
 # Gateways are tried in order; the one that last worked is moved to the front.
 GATEWAY_TEMPLATES = [
