@@ -2,15 +2,25 @@ name: Update M3U
 
 on:
   schedule:
-    - cron: "0/20 7-21 * * *"
+    - cron: "8 7-21 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+# Never let two runs overlap (each run now starts a Kubo node)
+concurrency:
+  group: update-m3u
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    env:
+      KUBO_VERSION: v0.39.0
+      IPNS_KEY: k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr
 
     steps:
       - name: Checkout
@@ -24,8 +34,64 @@ jobs:
       - name: Install deps
         run: pip install -r requirements.txt
 
+      - name: Install Kubo
+        run: |
+          wget -q "https://dist.ipfs.tech/kubo/${KUBO_VERSION}/kubo_${KUBO_VERSION}_linux-amd64.tar.gz"
+          tar xzf "kubo_${KUBO_VERSION}_linux-amd64.tar.gz"
+          sudo ./kubo/install.sh
+          ipfs --version
+
+      - name: Start IPFS daemon
+        run: |
+          ipfs init --profile=lowpower
+          nohup ipfs daemon > ipfs-daemon.log 2>&1 &
+
+          # Wait for the API to come up (max ~60s)
+          for i in $(seq 1 30); do
+            if ipfs id > /dev/null 2>&1; then
+              echo "Daemon is up"
+              break
+            fi
+            sleep 2
+          done
+
+          # Give it time to connect to peers (max ~60s)
+          for i in $(seq 1 30); do
+            PEERS=$(ipfs swarm peers 2>/dev/null | wc -l)
+            echo "Connected peers: $PEERS"
+            [ "$PEERS" -ge 10 ] && break
+            sleep 2
+          done
+
+      - name: Fetch playlists via Kubo
+        continue-on-error: true   # the script falls back to gateways, then the cache
+        run: |
+          mkdir -p downloads
+          for FILE in hashes_acestream.m3u hashes.m3u; do
+            for ATTEMPT in 1 2 3; do
+              echo "Fetching $FILE (attempt $ATTEMPT)"
+              if ipfs cat --timeout=120s "/ipns/${IPNS_KEY}/${FILE}" > "downloads/${FILE}.tmp" \
+                 && [ -s "downloads/${FILE}.tmp" ]; then
+                mv "downloads/${FILE}.tmp" "downloads/${FILE}"
+                echo "OK: $FILE ($(wc -l < downloads/${FILE}) lines)"
+                break
+              fi
+              rm -f "downloads/${FILE}.tmp"
+              sleep 10
+            done
+          done
+          ls -la downloads
+
+      - name: Stop IPFS daemon
+        if: always()
+        run: ipfs shutdown || true
+
       - name: Generate playlist
         run: python generate_playlist.py
+
+      - name: Show daemon log on failure
+        if: failure()
+        run: tail -n 100 ipfs-daemon.log || true
 
       - name: Get Madrid time (multi-source)
         run: |
