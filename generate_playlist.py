@@ -1,13 +1,47 @@
-import requests
+import os
 import re
+import sys
+import time
 
-# "https://ipfs.io/ipns/k2k4r8oqlcjxsritt5mczkcn4mmvcmymbqw7113fz2flkrerfwfps004/data/listas/lista_iptv.m3u"
-PLAYLIST_A = "https://dweb.link/ipns/k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr/hashes_acestream.m3u"
-PLAYLIST_C = "https://dweb.link/ipns/k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr/hashes.m3u"
+import requests
+
+# ---------------------------------------------------------------------------
+# Sources
+# ---------------------------------------------------------------------------
+IPNS_KEY = "k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr"
+PATH_A = "hashes_acestream.m3u"
+PATH_C = "hashes.m3u"
+
+# Gateways are tried in order; the one that last worked is moved to the front.
+GATEWAY_TEMPLATES = [
+    "https://dweb.link/ipns/{key}/{path}",
+    "https://ipfs.io/ipns/{key}/{path}",
+    "https://{key}.ipns.dweb.link/{path}",
+    "https://gateway.pinata.cloud/ipns/{key}/{path}",
+    "https://{key}.ipns.inbrowser.link/{path}",
+]
+
 PLAYLIST_B = "https://github.com/tutw/platinsport-m3u-updater/raw/refs/heads/main/lista.m3u"
 
 OUTPUT_FILE = "output/updated_playlist.m3u"
+CACHE_DIR = "cache"
 
+# ---------------------------------------------------------------------------
+# Fetch settings
+# ---------------------------------------------------------------------------
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+}
+REQUEST_TIMEOUT = 45
+MAX_ROUNDS = 4            # full passes over all gateways
+ROUND_BACKOFF = 15        # seconds, multiplied by round number
+MAX_RETRY_AFTER = 30      # cap on Retry-After sleeps
+DELAY_BETWEEN_FILES = 5   # be polite to gateways between playlist A and C
+
+# ---------------------------------------------------------------------------
+# Filtering
+# ---------------------------------------------------------------------------
 EXCLUDED_LANGS = {"FR", "PT", "BE", "NL", "DE", "TR", "RU", "PL"}
 
 LANG_PATTERN = re.compile(
@@ -16,12 +50,13 @@ LANG_PATTERN = re.compile(
 )
 
 GROUP_TITLE_PATTERN = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
-
 COUNTRY_PATTERN = re.compile(r'tvg-country="([^"]*)"', re.IGNORECASE)
+
 
 def get_country(meta):
     m = COUNTRY_PATTERN.search(meta)
     return m.group(1).upper() if m else None
+
 
 def is_allowed_country(meta):
     country = get_country(meta)
@@ -29,23 +64,91 @@ def is_allowed_country(meta):
         return False
     return country not in EXCLUDED_LANGS and country == "GB"
 
+
 def extract_group_title(line):
     m = GROUP_TITLE_PATTERN.search(line)
     return m.group(1).upper() if m else None
 
-def fetch(url):
+
+# ---------------------------------------------------------------------------
+# Fetching: retries, gateway fallback, cache
+# ---------------------------------------------------------------------------
+def looks_like_m3u(text):
+    """Gateways sometimes return 200 with an HTML bootstrap page; reject those."""
+    return "#EXTM3U" in text[:2000] or "#EXTINF" in text
+
+
+def fetch_once(url):
+    """Single request. Returns text, or None on any failure (logged)."""
     try:
-        r = requests.get(url, timeout=60)
+        r = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+        if r.status_code == 429:
+            try:
+                wait = int(r.headers.get("Retry-After", 5))
+            except ValueError:
+                wait = 5
+            print(f"429 from {url}; waiting {min(wait, MAX_RETRY_AFTER)}s")
+            time.sleep(min(wait, MAX_RETRY_AFTER))
+            return None
         r.raise_for_status()
-        return r.text.splitlines()
+        if not looks_like_m3u(r.text):
+            print(f"{url} returned content that doesn't look like an M3U")
+            return None
+        return r.text
     except Exception as e:
         print(f"Error fetching {url} : {e}")
-        return []
+        return None
 
-def is_gb(line):
-    line = line.upper()
-    return any(k in line for k in ["GB"])
 
+def fetch_ipns(path):
+    """Try every gateway, several rounds, with backoff. Returns text or None."""
+    for rnd in range(1, MAX_ROUNDS + 1):
+        for template in list(GATEWAY_TEMPLATES):
+            url = template.format(key=IPNS_KEY, path=path)
+            text = fetch_once(url)
+            if text:
+                # Remember the working gateway so the next file tries it first
+                GATEWAY_TEMPLATES.remove(template)
+                GATEWAY_TEMPLATES.insert(0, template)
+                return text
+        if rnd < MAX_ROUNDS:
+            wait = ROUND_BACKOFF * rnd
+            print(f"All gateways failed (round {rnd}/{MAX_ROUNDS}); retrying in {wait}s")
+            time.sleep(wait)
+    return None
+
+
+def fetch_direct(url):
+    """Direct URL (e.g. GitHub raw) with simple retries."""
+    for attempt in range(1, 4):
+        text = fetch_once(url)
+        if text:
+            return text
+        if attempt < 3:
+            time.sleep(5 * attempt)
+    return None
+
+
+def load_playlist(cache_name, fetch_fn):
+    """Fetch fresh data and refresh the cache; fall back to the cache on failure."""
+    cache_path = os.path.join(CACHE_DIR, cache_name)
+    text = fetch_fn()
+    if text:
+        os.makedirs(CACHE_DIR, exist_ok=True)
+        with open(cache_path, "w", encoding="utf-8") as f:
+            f.write(text)
+        return text.splitlines()
+    if os.path.exists(cache_path):
+        print(f"Using cached copy for {cache_name}")
+        with open(cache_path, encoding="utf-8") as f:
+            return f.read().splitlines()
+    print(f"No fresh or cached data available for {cache_name}")
+    return []
+
+
+# ---------------------------------------------------------------------------
+# M3U parsing / transformation
+# ---------------------------------------------------------------------------
 def parse_m3u(lines):
     header_lines = []
     extgrp_lines = []
@@ -76,11 +179,13 @@ def parse_m3u(lines):
             i += 1
     return header_lines, extgrp_lines, entries
 
+
 def replace_group_title(line):
-    # If group-title="AGENDA PLATINSPORT" exists, replace it with group-title="ENGLISH CHANNELS"
+    # Replace any group-title (e.g. "AGENDA PLATINSPORT") with "ENGLISH CHANNELS"
     if 'group-title=' in line:
-        return re.sub(r'group-title="[^"]*"', f'group-title="{"ENGLISH CHANNELS"}"', line)
+        return re.sub(r'group-title="[^"]*"', 'group-title="ENGLISH CHANNELS"', line)
     return line
+
 
 def is_excluded(meta, check_country=False):
     # Check 1: tvg-country attribute (Playlist B only)
@@ -95,16 +200,26 @@ def is_excluded(meta, check_country=False):
 
     return False
 
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
 def main():
     output = []
     seen_urls = set()
     seen_extgrp = set()
 
-    lines_a = fetch(PLAYLIST_A)
-    lines_c = fetch(PLAYLIST_C)
+    lines_a = load_playlist(PATH_A, lambda: fetch_ipns(PATH_A))
+    time.sleep(DELAY_BETWEEN_FILES)
+    lines_c = load_playlist(PATH_C, lambda: fetch_ipns(PATH_C))
+
+    # Don't overwrite the output with an empty playlist if the main sources are gone
+    if not lines_a and not lines_c:
+        print("Playlists A and C are both unavailable (no cache either); aborting.")
+        sys.exit(1)
 
     headers_a, extgrp_a, entries_a = parse_m3u(lines_a)
-    _,         extgrp_c, entries_c = parse_m3u(lines_c)
+    _, extgrp_c, entries_c = parse_m3u(lines_c)
 
     # Write #EXTM3U and non-EXTGRP headers from A
     for h in headers_a:
@@ -135,7 +250,7 @@ def main():
             output.append(url)
             seen_urls.add(url)
 
-    lines_b = fetch(PLAYLIST_B)
+    lines_b = load_playlist("lista_b.m3u", lambda: fetch_direct(PLAYLIST_B))
     _, _, entries_b = parse_m3u(lines_b)
     for meta, url in entries_b:
         if is_allowed_country(meta) and not is_excluded(meta, check_country=True):
@@ -144,8 +259,11 @@ def main():
             output.append(url)
             seen_urls.add(url)
 
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(output))
-        
+    print(f"Wrote {OUTPUT_FILE}")
+
+
 if __name__ == "__main__":
     main()
