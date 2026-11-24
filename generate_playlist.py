@@ -8,9 +8,8 @@ import requests
 # ---------------------------------------------------------------------------
 # Sources
 # ---------------------------------------------------------------------------
-IPNS_KEY = "k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr"
+IPNS_KEY = "k51qzi5uqu5dh5qej4b9wlcr5i6vhc7rcfkekhrxqek5c9lk6gdaiik820fecs"
 PATH_A = "hashes_acestream.m3u"
-PATH_C = "hashes.m3u"
 
 # Gateways are tried in order; the one that last worked is moved to the front.
 GATEWAY_TEMPLATES = [
@@ -236,22 +235,15 @@ def main():
     seen_extgrp = set()
 
     lines_a = load_playlist(PATH_A, lambda: fetch_ipns_playlist(PATH_A))
-    lines_c = load_playlist(PATH_C, lambda: fetch_ipns_playlist(PATH_C))
-
-    # Don't overwrite the output with an empty playlist if the main sources are gone
-    if not lines_a and not lines_c:
-        print("Playlists A and C are both unavailable (no cache either); aborting.")
-        sys.exit(1)
 
     headers_a, extgrp_a, entries_a = parse_m3u(lines_a)
-    _, extgrp_c, entries_c = parse_m3u(lines_c)
 
     # Write #EXTM3U and non-EXTGRP headers from A
     for h in headers_a:
         output.append(h)
 
     # Merge #EXTGRP from A and C, deduplicating by group-title value only
-    for grp in extgrp_a + extgrp_c:
+    for grp in extgrp_a:
         title = extract_group_title(grp)
         if title and title not in seen_extgrp:
             output.append(grp)
@@ -260,14 +252,6 @@ def main():
             output.append(grp)  # no group-title found, keep it anyway
 
     for meta, url in entries_a:
-        if is_excluded(meta):
-            continue
-        if url not in seen_urls:
-            output.append(meta)
-            output.append(url)
-            seen_urls.add(url)
-
-    for meta, url in entries_c:
         if is_excluded(meta):
             continue
         if url not in seen_urls:
