@@ -53,7 +53,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add output/updated_playlist.m3u
+          git add output/updated_playlist.m3u cache/
           git commit -m "Auto update playlist - $MADRID_TIME" || echo "No changes"
           git pull --rebase origin main
           git push
