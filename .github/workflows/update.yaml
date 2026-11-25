@@ -8,11 +8,6 @@ on:
 permissions:
   contents: write
 
-# Never let two runs overlap
-concurrency:
-  group: update-m3u
-  cancel-in-progress: false
-
 jobs:
   update:
     runs-on: ubuntu-latest
