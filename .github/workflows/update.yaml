@@ -1,39 +1,39 @@
 name: Update M3U
-
+ 
 on:
   schedule:
     - cron: "8 7-21 * * *"
   workflow_dispatch:
-
+ 
 permissions:
   contents: write
-
+ 
 # Never let two runs overlap (each run now starts a Kubo node)
 concurrency:
   group: update-m3u
   cancel-in-progress: false
-
+ 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-
+ 
     env:
       KUBO_VERSION: v0.39.0
       IPNS_KEY: k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr
-
+ 
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-
+ 
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.x"
-
+ 
       - name: Install deps
         run: pip install -r requirements.txt
-
+ 
       - name: Install Kubo
         id: install
         continue-on-error: true   # if this fails, the script still runs via gateways/cache
@@ -56,7 +56,7 @@ jobs:
           tar xzf "$FILE"
           sudo ./kubo/install.sh
           ipfs --version
-
+ 
       - name: Start IPFS daemon
         id: start
         if: steps.install.outcome == 'success'
@@ -64,7 +64,7 @@ jobs:
         run: |
           ipfs init --profile=lowpower
           nohup ipfs daemon > ipfs-daemon.log 2>&1 &
-
+ 
           # Wait for the API to come up (max ~60s)
           for i in $(seq 1 30); do
             if ipfs id > /dev/null 2>&1; then
@@ -73,9 +73,9 @@ jobs:
             fi
             sleep 2
           done
-
+ 
           ipfs id > /dev/null 2>&1 || { echo "Daemon failed to start"; exit 1; }
-
+ 
           # Give it time to connect to peers (max ~60s)
           for i in $(seq 1 30); do
             PEERS=$(ipfs swarm peers 2>/dev/null | wc -l)
@@ -83,13 +83,13 @@ jobs:
             [ "$PEERS" -ge 10 ] && break
             sleep 2
           done
-
+ 
       - name: Fetch playlists via Kubo
         if: steps.start.outcome == 'success'
         continue-on-error: true   # the script falls back to gateways, then the cache
         run: |
           mkdir -p downloads
-          for FILE in hashes_acestream.m3u hashes.m3u; do
+          for FILE in hashes.m3u; do
             for ATTEMPT in 1 2 3; do
               echo "Fetching $FILE (attempt $ATTEMPT)"
               if ipfs cat --timeout=120s "/ipns/${IPNS_KEY}/${FILE}" > "downloads/${FILE}.tmp" \
@@ -103,18 +103,18 @@ jobs:
             done
           done
           ls -la downloads
-
+ 
       - name: Stop IPFS daemon
         if: always() && steps.install.outcome == 'success'
         run: ipfs shutdown || true
-
+ 
       - name: Show daemon log
         if: always() && hashFiles('ipfs-daemon.log') != ''
         run: tail -n 100 ipfs-daemon.log || true
-
+ 
       - name: Generate playlist
         run: python generate_playlist.py
-
+ 
       - name: Get Madrid time (multi-source)
         run: |
           URLS=(
@@ -136,7 +136,7 @@ jobs:
           fi
       
           echo "MADRID_TIME=$MADRID_TIME" >> $GITHUB_ENV
-
+ 
       - name: Commit & push
         run: |
           git config --global user.name "github-actions"
@@ -145,3 +145,4 @@ jobs:
           git commit -m "Auto update playlist - $MADRID_TIME" || echo "No changes"
           git pull --rebase origin main
           git push
+ 
