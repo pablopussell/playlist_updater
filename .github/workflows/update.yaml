@@ -20,7 +20,9 @@ jobs:
  
     env:
       KUBO_VERSION: v0.39.0
-      IPNS_KEY: k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr
+      IPNS_KEYS: >-
+        k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr
+        k51qzi5uqu5dh5qej4b9wlcr5i6vhc7rcfkekhrxqek5c9lk6gdaiik820fecs
  
     steps:
       - name: Checkout
@@ -90,17 +92,22 @@ jobs:
         run: |
           mkdir -p downloads
           for FILE in hashes.m3u; do
-            for ATTEMPT in 1 2 3; do
-              echo "Fetching $FILE (attempt $ATTEMPT)"
-              if ipfs cat --timeout=120s "/ipns/${IPNS_KEY}/${FILE}" > "downloads/${FILE}.tmp" \
-                 && [ -s "downloads/${FILE}.tmp" ]; then
-                mv "downloads/${FILE}.tmp" "downloads/${FILE}"
-                echo "OK: $FILE ($(wc -l < downloads/${FILE}) lines)"
-                break
-              fi
-              rm -f "downloads/${FILE}.tmp"
-              sleep 10
+            DONE=0
+            for KEY in $IPNS_KEYS; do
+              for ATTEMPT in 1 2; do
+                echo "Fetching $FILE from ${KEY:0:12}... (attempt $ATTEMPT)"
+                if ipfs cat --timeout=90s "/ipns/${KEY}/${FILE}" > "downloads/${FILE}.tmp" \
+                   && [ -s "downloads/${FILE}.tmp" ]; then
+                  mv "downloads/${FILE}.tmp" "downloads/${FILE}"
+                  echo "OK: $FILE ($(wc -l < downloads/${FILE}) lines)"
+                  DONE=1
+                  break 2
+                fi
+                rm -f "downloads/${FILE}.tmp"
+                sleep 10
+              done
             done
+            [ "$DONE" = "1" ] || echo "Could not fetch $FILE from any IPNS key"
           done
           ls -la downloads
  
