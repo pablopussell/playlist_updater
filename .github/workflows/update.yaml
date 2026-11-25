@@ -33,29 +33,21 @@ jobs:
       - name: Generate playlist
         run: python generate_playlist.py
 
-      - name: Get generated timestamp from JSON
+      - name: Get generated timestamp from JSON (Madrid local time)
         run: |
+          GENERATED_UTC=""
           if [ -f cache/hashes.json ]; then
-            GENERATED=$(jq -r '
-              .generated
-              | if . then
-                  sub("\\.[0-9]+"; "")
-                  | gsub("T"; " ")
-                  | gsub("Z$"; " UTC")
-                else
-                  empty
-                end
-            ' cache/hashes.json)
+            GENERATED_UTC=$(jq -r '.generated // empty' cache/hashes.json)
+          fi
+
+          if [ -n "$GENERATED_UTC" ] && [ "$GENERATED_UTC" != "null" ]; then
+            MADRID_TIME=$(TZ="Europe/Madrid" date -d "$GENERATED_UTC" '+%Y-%m-%d %H:%M:%S %Z')
           else
-            GENERATED=""
+            echo "No generated timestamp found in JSON, fallback to current Madrid time"
+            MADRID_TIME=$(TZ="Europe/Madrid" date '+%Y-%m-%d %H:%M:%S %Z')
           fi
 
-          if [ -z "$GENERATED" ] || [ "$GENERATED" = "null" ]; then
-            echo "No generated timestamp found in JSON, fallback to current UTC time"
-            GENERATED=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          fi
-
-          echo "MADRID_TIME=$GENERATED" >> $GITHUB_ENV
+          echo "MADRID_TIME=$MADRID_TIME" >> $GITHUB_ENV
 
       - name: Commit & push
         run: |
