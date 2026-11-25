@@ -2,15 +2,15 @@ import os
 import re
 import sys
 import time
-
+ 
 import requests
-
+ 
 # ---------------------------------------------------------------------------
 # Sources
 # ---------------------------------------------------------------------------
-IPNS_KEY = "k51qzi5uqu5dh5qej4b9wlcr5i6vhc7rcfkekhrxqek5c9lk6gdaiik820fecs"
-PATH_A = "hashes.m3u"
-
+IPNS_KEY = "k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr"
+PATH_HASHES = "hashes.m3u"
+ 
 # Gateways are tried in order; the one that last worked is moved to the front.
 GATEWAY_TEMPLATES = [
     "https://dweb.link/ipns/{key}/{path}",
@@ -19,12 +19,12 @@ GATEWAY_TEMPLATES = [
     "https://gateway.pinata.cloud/ipns/{key}/{path}",
     "https://{key}.ipns.inbrowser.link/{path}",
 ]
-
+ 
 PLAYLIST_B = "https://github.com/tutw/platinsport-m3u-updater/raw/refs/heads/main/lista.m3u"
-
+ 
 OUTPUT_FILE = "output/updated_playlist.m3u"
 CACHE_DIR = "cache"
-
+ 
 # ---------------------------------------------------------------------------
 # Fetch settings
 # ---------------------------------------------------------------------------
@@ -37,49 +37,49 @@ MAX_ROUNDS = 2            # full passes over all gateways (fallback only)
 ROUND_BACKOFF = 10        # seconds, multiplied by round number
 MAX_RETRY_AFTER = 20      # cap on Retry-After sleeps
 DEADLINE_SECONDS = 120    # max time spent on gateways per playlist
-
+ 
 # Files downloaded by the workflow through the local Kubo node (preferred source)
 LOCAL_DIR = "downloads"
-
+ 
 # ---------------------------------------------------------------------------
 # Filtering
 # ---------------------------------------------------------------------------
 EXCLUDED_LANGS = {"FR", "PT", "BE", "NL", "DE", "TR", "RU", "PL"}
-
+ 
 LANG_PATTERN = re.compile(
     r'[\(\[\{](FR|PT|BE|NL|DE|TR|RU|PL)[\)\]\}]',
     re.IGNORECASE
 )
-
+ 
 GROUP_TITLE_PATTERN = re.compile(r'group-title="([^"]*)"', re.IGNORECASE)
 COUNTRY_PATTERN = re.compile(r'tvg-country="([^"]*)"', re.IGNORECASE)
-
-
+ 
+ 
 def get_country(meta):
     m = COUNTRY_PATTERN.search(meta)
     return m.group(1).upper() if m else None
-
-
+ 
+ 
 def is_allowed_country(meta):
     country = get_country(meta)
     if country is None:
         return False
     return country not in EXCLUDED_LANGS and country == "GB"
-
-
+ 
+ 
 def extract_group_title(line):
     m = GROUP_TITLE_PATTERN.search(line)
     return m.group(1).upper() if m else None
-
-
+ 
+ 
 # ---------------------------------------------------------------------------
 # Fetching: retries, gateway fallback, cache
 # ---------------------------------------------------------------------------
 def looks_like_m3u(text):
     """Gateways sometimes return 200 with an HTML bootstrap page; reject those."""
     return "#EXTM3U" in text[:2000] or "#EXTINF" in text
-
-
+ 
+ 
 def fetch_once(url):
     """Single request. Returns text, or None on any failure (logged)."""
     try:
@@ -100,8 +100,8 @@ def fetch_once(url):
     except Exception as e:
         print(f"Error fetching {url} : {e}")
         return None
-
-
+ 
+ 
 def fetch_local(path):
     """Read a file the workflow already downloaded via the local Kubo node."""
     local_path = os.path.join(LOCAL_DIR, path)
@@ -114,8 +114,8 @@ def fetch_local(path):
         return text
     print(f"Local file {local_path} doesn't look like an M3U; ignoring it")
     return None
-
-
+ 
+ 
 def fetch_ipns(path):
     """Try every gateway with backoff and an overall deadline. Returns text or None."""
     deadline = time.monotonic() + DEADLINE_SECONDS
@@ -136,13 +136,13 @@ def fetch_ipns(path):
             print(f"All gateways failed (round {rnd}/{MAX_ROUNDS}); retrying in {wait}s")
             time.sleep(wait)
     return None
-
-
+ 
+ 
 def fetch_ipns_playlist(path):
     """Preferred: local Kubo download. Fallback: public gateways. Then the cache."""
     return fetch_local(path) or fetch_ipns(path)
-
-
+ 
+ 
 def fetch_direct(url):
     """Direct URL (e.g. GitHub raw) with simple retries."""
     for attempt in range(1, 4):
@@ -152,8 +152,8 @@ def fetch_direct(url):
         if attempt < 3:
             time.sleep(5 * attempt)
     return None
-
-
+ 
+ 
 def load_playlist(cache_name, fetch_fn):
     """Fetch fresh data and refresh the cache; fall back to the cache on failure."""
     cache_path = os.path.join(CACHE_DIR, cache_name)
@@ -169,8 +169,8 @@ def load_playlist(cache_name, fetch_fn):
             return f.read().splitlines()
     print(f"No fresh or cached data available for {cache_name}")
     return []
-
-
+ 
+ 
 # ---------------------------------------------------------------------------
 # M3U parsing / transformation
 # ---------------------------------------------------------------------------
@@ -203,29 +203,29 @@ def parse_m3u(lines):
         else:
             i += 1
     return header_lines, extgrp_lines, entries
-
-
+ 
+ 
 def replace_group_title(line):
     # Replace any group-title (e.g. "AGENDA PLATINSPORT") with "ENGLISH CHANNELS"
     if 'group-title=' in line:
         return re.sub(r'group-title="[^"]*"', 'group-title="ENGLISH CHANNELS"', line)
     return line
-
-
+ 
+ 
 def is_excluded(meta, check_country=False):
     # Check 1: tvg-country attribute (Playlist B only)
     if check_country:
         country = get_country(meta)
         if country and country in EXCLUDED_LANGS:
             return True
-
+ 
     # Check 2: language tag in channel name e.g. (PL), [DE], {FR}
     if LANG_PATTERN.search(meta):
         return True
-
+ 
     return False
-
-
+ 
+ 
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -233,32 +233,37 @@ def main():
     output = []
     seen_urls = set()
     seen_extgrp = set()
-
-    lines_a = load_playlist(PATH_A, lambda: fetch_ipns_playlist(PATH_A))
-
-    headers_a, extgrp_a, entries_a = parse_m3u(lines_a)
-
-    # Write #EXTM3U and non-EXTGRP headers from A
-    for h in headers_a:
+ 
+    lines_h = load_playlist(PATH_HASHES, lambda: fetch_ipns_playlist(PATH_HASHES))
+ 
+    # Don't overwrite the output with an empty playlist if the main source is gone
+    if not lines_h:
+        print("hashes.m3u is unavailable (no cache either); aborting.")
+        sys.exit(1)
+ 
+    headers_h, extgrp_h, entries_h = parse_m3u(lines_h)
+ 
+    # Write #EXTM3U and non-EXTGRP headers from hashes.m3u
+    for h in headers_h:
         output.append(h)
-
-    # Merge #EXTGRP from A and C, deduplicating by group-title value only
-    for grp in extgrp_a:
+ 
+    # Keep #EXTGRP lines, deduplicating by group-title value only
+    for grp in extgrp_h:
         title = extract_group_title(grp)
         if title and title not in seen_extgrp:
             output.append(grp)
             seen_extgrp.add(title)
         elif not title:
             output.append(grp)  # no group-title found, keep it anyway
-
-    for meta, url in entries_a:
+ 
+    for meta, url in entries_h:
         if is_excluded(meta):
             continue
         if url not in seen_urls:
             output.append(meta)
             output.append(url)
             seen_urls.add(url)
-
+ 
     lines_b = load_playlist("lista_b.m3u", lambda: fetch_direct(PLAYLIST_B))
     _, _, entries_b = parse_m3u(lines_b)
     for meta, url in entries_b:
@@ -267,12 +272,13 @@ def main():
             output.append(updated_meta)
             output.append(url)
             seen_urls.add(url)
-
+ 
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write("\n".join(output))
     print(f"Wrote {OUTPUT_FILE}")
-
-
+ 
+ 
 if __name__ == "__main__":
     main()
+ 
