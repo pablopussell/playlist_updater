@@ -8,7 +8,11 @@ import requests
 # ---------------------------------------------------------------------------
 # Sources
 # ---------------------------------------------------------------------------
-IPNS_KEY = "k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr"
+# Several IPNS keys publishing hashes.m3u; the first one that works is used (not merged)
+IPNS_KEYS = [
+    "k51qzi5uqu5di462t7j4vu4akwfhvtjhy88qbupktvoacqfqe9uforjvhyi4wr",
+    "k51qzi5uqu5dh5qej4b9wlcr5i6vhc7rcfkekhrxqek5c9lk6gdaiik820fecs",
+]
 PATH_HASHES = "hashes.m3u"
  
 # Gateways are tried in order; the one that last worked is moved to the front.
@@ -36,7 +40,7 @@ REQUEST_TIMEOUT = 20
 MAX_ROUNDS = 2            # full passes over all gateways (fallback only)
 ROUND_BACKOFF = 10        # seconds, multiplied by round number
 MAX_RETRY_AFTER = 20      # cap on Retry-After sleeps
-DEADLINE_SECONDS = 120    # max time spent on gateways per playlist
+DEADLINE_SECONDS = 180    # max time spent on gateways per playlist
  
 # Files downloaded by the workflow through the local Kubo node (preferred source)
 LOCAL_DIR = "downloads"
@@ -121,16 +125,17 @@ def fetch_ipns(path):
     deadline = time.monotonic() + DEADLINE_SECONDS
     for rnd in range(1, MAX_ROUNDS + 1):
         for template in list(GATEWAY_TEMPLATES):
-            if time.monotonic() > deadline:
-                print(f"Gateway deadline reached for {path}")
-                return None
-            url = template.format(key=IPNS_KEY, path=path)
-            text = fetch_once(url)
-            if text:
-                # Remember the working gateway so the next file tries it first
-                GATEWAY_TEMPLATES.remove(template)
-                GATEWAY_TEMPLATES.insert(0, template)
-                return text
+            for key in IPNS_KEYS:
+                if time.monotonic() > deadline:
+                    print(f"Gateway deadline reached for {path}")
+                    return None
+                url = template.format(key=key, path=path)
+                text = fetch_once(url)
+                if text:
+                    # Remember the working gateway so the next file tries it first
+                    GATEWAY_TEMPLATES.remove(template)
+                    GATEWAY_TEMPLATES.insert(0, template)
+                    return text
         wait = ROUND_BACKOFF * rnd
         if rnd < MAX_ROUNDS and time.monotonic() + wait < deadline:
             print(f"All gateways failed (round {rnd}/{MAX_ROUNDS}); retrying in {wait}s")
