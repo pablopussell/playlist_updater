@@ -33,27 +33,29 @@ jobs:
       - name: Generate playlist
         run: python generate_playlist.py
 
-      - name: Get Madrid time (multi-source)
+      - name: Get generated timestamp from JSON
         run: |
-          URLS=(
-            "https://timeapi.io/api/Time/current/zone?timeZone=Europe/Madrid"
-            "https://worldtimeapi.org/api/timezone/Europe/Madrid"
-          )
-
-          for URL in "${URLS[@]}"; do
-            RESPONSE=$(curl -s --fail --max-time 20 "$URL") && break
-          done
-
-          if echo "$RESPONSE" | jq -e '.dateTime' > /dev/null 2>&1; then
-            MADRID_TIME=$(jq -r '.dateTime | split(".")[0] | gsub("T"; " ")' <<< "$RESPONSE")
-          elif echo "$RESPONSE" | jq -e '.datetime' > /dev/null 2>&1; then
-            MADRID_TIME=$(jq -r '.datetime | split(".")[0] | gsub("T"; " ")' <<< "$RESPONSE")
+          if [ -f cache/hashes.json ]; then
+            GENERATED=$(jq -r '
+              .generated
+              | if . then
+                  sub("\\.[0-9]+"; "")
+                  | gsub("T"; " ")
+                  | gsub("Z$"; " UTC")
+                else
+                  empty
+                end
+            ' cache/hashes.json)
           else
-            echo "All APIs failed, fallback to UTC"
-            MADRID_TIME=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+            GENERATED=""
           fi
 
-          echo "MADRID_TIME=$MADRID_TIME" >> $GITHUB_ENV
+          if [ -z "$GENERATED" ] || [ "$GENERATED" = "null" ]; then
+            echo "No generated timestamp found in JSON, fallback to current UTC time"
+            GENERATED=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          fi
+
+          echo "MADRID_TIME=$GENERATED" >> $GITHUB_ENV
 
       - name: Commit & push
         run: |
